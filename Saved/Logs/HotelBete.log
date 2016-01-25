@@ -468,4 +468,30 @@
 [2016.01.25-15.26.09:428][  3]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.498
 [2016.01.25-15.26.09:428][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2016.01.25-15.26.21:966][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.01.25-15.26.22:250][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/First
+[2016.01.25-15.26.22:250][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.25-15.26.22:261][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024A1CAEE020
+[2016.01.25-15.36.23:931][ 83]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.25-15.36.25:243][ 83]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0191 seconds. Added 107 classes and 0 folders.
+[2016.01.25-15.36.34:838][790]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.01.25-15.36.35:308][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.25-15.36.35:308][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.25-15.36.35:376][790]BlueprintEditorCompileResults: Info [0811.50] Compile of FirstPersonExampleMap successful! [in 521 ms]
+[2016.01.25-15.36.35:460][792]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.01.25-15.36.35:518][792]BlueprintEditorCompileResults: Info [0811.66] Compile of FirstPersonExampleMap successful! [in 58 ms]
+[2016.01.25-15.36.38:395][923]LogSavePackage: Save=1484.595581ms
+[2016.01.25-15.36.38:395][923]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/FirstPersonExampleMap1A57BE4847E51BE4FD66AD8E14F03F9A.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.01.25-15.36.38:398][923]LogSavePackage: Total save time: 1504.239608ms
+[2016.01.25-15.36.38:398][923]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.01.25-15.36.38:523][923]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.745
+[2016.01.25-16.02.27:221][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Player/Player" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset" SILENT=true
+[2016.01.25-16.02.27:234][ 34]LogSavePackage: Save=11.680005ms
+[2016.01.25-16.02.27:234][ 34]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/Player6323703B48616CEB5641F18A0B86A5F7.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset'
+[2016.01.25-16.02.27:237][ 34]LogSavePackage: Total save time: 14.108449ms
+[2016.01.25-16.02.27:237][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset
+[2016.01.25-16.05.35:859][410]LogRenderer: Reallocating scene render targets to support 964x724 (Frame:28950).
+[2016.01.25-16.05.57:381][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Player/Player" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset" SILENT=true
+[2016.01.25-16.05.57:406][827]LogSavePackage: Save=15.835265ms
+[2016.01.25-16.05.57:406][827]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/Player0FD88F2A4C3C379C1732DFAB06EF90FE.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset'
+[2016.01.25-16.05.57:409][827]LogSavePackage: Total save time: 26.699074ms
+[2016.01.25-16.05.57:409][827]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset
+[2016.01.25-16.16.10:740][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Player/Player" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprint
