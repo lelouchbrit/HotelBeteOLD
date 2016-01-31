@@ -1,0 +1,1065 @@
+﻿[2016.01.31-16.25.55:515][  0]Log file open, 01/31/16 11:25:55
+[2016.01.31-16.25.55:515][  0]LogInit:Display: Running engine for game: HotelBete
+[2016.01.31-16.25.55:515][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.31-16.25.55:515][  0]LogInit:Display: RandInit(783949784) SRandInit(783949785).
+[2016.01.31-16.25.55:515][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.31-16.25.55:515][  0]LogStats: Stats thread started at 0.064541
+[2016.01.31-16.25.55:515][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-16.25.55:515][  0]LogInit: API Version: 2758231
+[2016.01.31-16.25.55:515][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.31-16.25.55:515][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.31-16.25.55:515][  0]LogInit: Build Configuration: Development
+[2016.01.31-16.25.55:515][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.31-16.25.55:515][  0]LogInit: Command line:  
+[2016.01.31-16.25.55:515][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.31-16.25.55:515][  0]LogInit: Rocket: 1
+[2016.01.31-16.25.55:515][  0]LogInit: Using libcurl 7.41.0
+[2016.01.31-16.25.55:515][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.31-16.25.55:515][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.31-16.25.55:515][  0]LogInit:  - other features:
+[2016.01.31-16.25.55:515][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.31-16.25.55:515][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.31-16.25.55:515][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.31-16.25.55:515][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.31-16.25.55:515][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.31-16.25.55:515][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.31-16.25.55:515][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.31-16.25.55:515][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.31-16.25.55:515][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.31-16.25.55:515][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.31-16.25.55:525][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.31-16.25.55:525][  0]LogInit: Object subsystem initialized
+[2016.01.31-16.25.55:525][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-16.25.55:525][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.31-16.25.55:535][  0]LogInit: Computer: MRRBOND-PC
+[2016.01.31-16.25.55:535][  0]LogInit: User: MrrBond
+[2016.01.31-16.25.55:535][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.31-16.25.55:535][  0]LogInit: High frequency timer resolution =3.416035 MHz
+[2016.01.31-16.25.55:535][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.31-16.25.55:535][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.31-16.25.55:535][  0]LogMemory: Process Physical Memory: 57.79 MB used, 57.79 MB peak
+[2016.01.31-16.25.55:535][  0]LogMemory: Process Virtual Memory: 57.67 MB used, 57.67 MB peak
+[2016.01.31-16.25.55:535][  0]LogMemory: Physical Memory: 3449.27 MB used, 8134.93 MB total
+[2016.01.31-16.25.55:535][  0]LogMemory: Virtual Memory: 351.33 MB used, 8388608.00 MB total
+[2016.01.31-16.25.55:569][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.31-16.25.55:905][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2016.01.31-16.25.55:905][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.31-16.25.55:905][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.31-16.25.55:909][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.31-16.25.55:909][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.31-16.25.55:919][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.31-16.25.55:932][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/8956/).
+[2016.01.31-16.25.55:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MrrBond/AppData/Local/Temp/UnrealShaderWorkingDir/8562DA594E3F18CDAC39C0BDABF7F64E/'.
+[2016.01.31-16.25.55:932][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.31-16.25.56:547][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.31-16.25.56:551][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.31-16.25.56:556][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.31-16.25.56:560][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.31-16.25.56:563][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.31-16.25.56:566][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.31-16.25.56:568][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.31-16.25.56:571][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.31-16.25.56:574][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.31-16.25.56:576][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.31-16.25.56:579][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.31-16.25.56:585][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.31-16.25.56:585][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.31-16.25.56:586][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.31-16.25.56:602][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.31-16.25.56:604][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.31-16.25.56:607][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.31-16.25.56:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.31-16.25.56:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.31-16.25.56:681][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.31-16.25.56:725][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.31-16.25.56:771][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.31-16.25.56:785][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MrrBond/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.31-16.25.56:923][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-16.25.56:923][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.31-16.25.56:954][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.31-16.25.56:954][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.31-16.25.57:223][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.31-16.25.57:877][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.31-16.25.57:966][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.31-16.25.58:118][  0]SourceControl: Info Source control is disabled
+[2016.01.31-16.25.58:119][  0]SourceControl: Info Source control is disabled
+[2016.01.31-16.25.58:129][  0]SourceControl: Info Source control is disabled
+[2016.01.31-16.25.58:139][  0]SourceControl: Info Source control is disabled
+[2016.01.31-16.25.58:341][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.31-16.25.58:341][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.31-16.25.58:386][  0]LogEngine: Initializing Engine...
+[2016.01.31-16.25.58:387][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-16.25.58:388][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.31-16.25.58:485][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.31-16.25.58:491][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.25.58:521][  0]LogInit: FAudioDevice initialized.
+[2016.01.31-16.25.58:543][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-16.25.58:548][  0]LogInit: Texture streaming: Enabled
+[2016.01.31-16.25.58:553][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.31-16.25.58:553][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-16.25.58:553][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 70d505b9489753c526a513886a8eb1a2|20388df98dc841109316ca5aa4c25788|5df8a1b8-928f-4cc0-8ccd-f95831ba8036
+[2016.01.31-16.25.58:553][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.31-16.25.58:575][  0]LogInit: Transaction tracking system initialized
+[2016.01.31-16.25.58:597][  0]BlueprintLog: New page: Editor Load
+[2016.01.31-16.25.58:661][  0]LocalizationService: Info Localization service is disabled
+[2016.01.31-16.25.58:724][  0]LogConsoleResponse:Display: 
+[2016.01.31-16.25.58:828][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.31-16.25.58:874][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/' took 0.01s
+[2016.01.31-16.25.58:874][  0]SourceControl: Info Source control is disabled
+[2016.01.31-16.25.58:875][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-16.25.58:875][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.01.31-16.25.58:875][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-16.25.58:921][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.449ms to complete.
+[2016.01.31-16.25.58:921][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.047
+[2016.01.31-16.25.59:003][  0]LogCollectionManager: Loaded 0 collections in 0.001609 seconds
+[2016.01.31-16.25.59:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.01.31-16.25.59:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Developers/MrrBond/Collections/' took 0.01s
+[2016.01.31-16.25.59:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.01.31-16.25.59:039][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.01.31-16.25.59:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1893 classes and 338 folders.
+[2016.01.31-16.25.59:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.31-16.25.59:097][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.31-16.25.59:100][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.31-16.25.59:118][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.31-16.25.59:122][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.31-16.25.59:143][  0]LogLoad: Full Startup: 4.01 seconds (BP compile: 0.00 seconds)
+[2016.01.31-16.25.59:153][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-16.25.59:187][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.31-16.25.59:307][  1]LogAssetRegistry: Asset discovery search completed in 1.3521 seconds
+[2016.01.31-16.25.59:307][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.31-16.25.59:307][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.01.31-16.25.59:321][  2]LogRenderer: Reallocating scene render targets to support 936x496 (Frame:2).
+[2016.01.31-16.26.06:056][779]LogBlueprint:Error: [compiler ItemManager] Error The variable StuffA declared in  ItemManager  has an invalid type Structure
+[2016.01.31-16.26.06:057][779]LogBlueprint:Warning: [compiler ItemManager] Warning [0010.93] Compile of ItemManager failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms]
+[2016.01.31-16.26.06:058][779]LogBlueprint:Warning: [compiler ItemManager] Warning [0010.93] Compile of ItemManager failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:058][779]LogBlueprint:Warning: [compiler ItemManager] Warning [0010.93] Compile of ItemManager failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:112][779]LogBlueprint:Warning: [InvItemPic] CreatePinForVariable: 'InventoryA' variable not found. Base class was probably changed.
+[2016.01.31-16.26.06:114][779]LogBlueprint:Error: [compiler InvItemPic] Error No Struct in  Break <unknown struct> 
+[2016.01.31-16.26.06:114][779]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.26.06:116][779]LogBlueprint:Warning: [compiler InvItemPic] Warning [0010.99] Compile of InvItemPic failed. 1 Fatal Issue(s) 1 Warning(s) [in 3 ms]
+[2016.01.31-16.26.06:116][779]LogBlueprint:Warning: [compiler InvItemPic] Warning [0010.99] Compile of InvItemPic failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:116][779]LogBlueprint:Warning: [compiler InvItemPic] Warning [0010.99] Compile of InvItemPic failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:153][779]LogBlueprint:Error: [compiler FirstPersonCharacter] Error The variable InventoryA declared in  FirstPersonCharacter  has an invalid type Array of Structures
+[2016.01.31-16.26.06:153][779]LogBlueprint:Error: [compiler FirstPersonCharacter] Error The variable Inventory declared in  FirstPersonCharacter  has an invalid type Array of Structures
+[2016.01.31-16.26.06:182][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.05] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 29 ms]
+[2016.01.31-16.26.06:182][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.05] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:182][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.05] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:196][779]LogBlueprint:Warning: [InvItemPic] CreatePinForVariable: 'InventoryA' variable not found. Base class was probably changed.
+[2016.01.31-16.26.06:201][779]LogBlueprint:Error: [compiler FirstPersonCharacter] Error The variable InventoryA declared in  FirstPersonCharacter  has an invalid type Array of Structures
+[2016.01.31-16.26.06:201][779]LogBlueprint:Error: [compiler FirstPersonCharacter] Error The variable Inventory declared in  FirstPersonCharacter  has an invalid type Array of Structures
+[2016.01.31-16.26.06:229][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 28 ms]
+[2016.01.31-16.26.06:229][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.01.31-16.26.06:229][779]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0011.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.31-16.26.08:168][779]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.26.08:202][779]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/BondsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-16.26.08:202][779]LightingResults: New page: Lighting Build
+[2016.01.31-16.26.08:205][779]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2016.01.31-16.26.08:219][779]LoadErrors: New page: Loading map: BondsLevel.umap
+[2016.01.31-16.26.08:219][779]MapCheck: New page: Map Check
+[2016.01.31-16.26.08:219][779]LightingResults: New page: Lighting Build
+[2016.01.31-16.26.08:228][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023C1AAC0
+[2016.01.31-16.26.08:232][779]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-16.26.08:253][779]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-16.26.08:299][779]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.889ms to complete.
+[2016.01.31-16.26.08:299][779]LogFileHelpers: Loading map 'BondsLevel' took 0.098
+[2016.01.31-16.26.10:643][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.26.17:214][462]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.31-16.26.17:495][462]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.01.31-16.26.18:574][563]BlueprintLog: New page: Compile InvItemPic
+[2016.01.31-16.26.18:584][563]LogBlueprint:Error: [compiler InvItemPic] Error No Struct in  Break <unknown struct> 
+[2016.01.31-16.26.18:584][563]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.26.18:660][563]LogBlueprint:Warning: [compiler InvItemPic] Warning [0023.53] Compile of InvItemPic failed. 1 Fatal Issue(s) 1 Warning(s) [in 85 ms]
+[2016.01.31-16.26.18:660][563]BlueprintEditorCompileResults:Error: Error No Struct in  Break <unknown struct> 
+[2016.01.31-16.26.18:660][563]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.26.18:660][563]BlueprintEditorCompileResults:Warning: Warning [0023.53] Compile of InvItemPic failed. 1 Fatal Issue(s) 1 Warning(s) [in 85 ms]
+[2016.01.31-16.26.58:636][317]BlueprintLog: New page: Compile InvItemPic
+[2016.01.31-16.26.58:641][317]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.26.58:717][317]LogBlueprint:Warning: [compiler InvItemPic] Warning [0063.59] Compile of InvItemPic successful, but with 1 Warning(s) [in 81 ms]
+[2016.01.31-16.26.58:717][317]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.26.58:717][317]BlueprintEditorCompileResults:Warning: Warning [0063.59] Compile of InvItemPic successful, but with 1 Warning(s) [in 81 ms]
+[2016.01.31-16.27.15:157][279]LogSavePackage: Save=23.620659ms
+[2016.01.31-16.27.15:157][279]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/InvItemPic5C2E00F8421A361D51E11982EC0A321D.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/InvItemPic.uasset'
+[2016.01.31-16.27.15:161][279]LogSavePackage: Total save time: 41.920241ms
+[2016.01.31-16.27.15:161][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/InvItemPic.uasset
+[2016.01.31-16.27.26:675][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.27.31:493][ 61]BlueprintLog: New page: Compile ItemManager
+[2016.01.31-16.27.31:544][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043D939C0
+[2016.01.31-16.27.31:545][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043D90860
+[2016.01.31-16.27.31:550][ 61]BlueprintEditorCompileResults: Info [0096.42] Compile of ItemManager successful! [in 57 ms]
+[2016.01.31-16.27.35:221][457]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-16.27.35:313][457]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.27.35:380][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000566C7420
+[2016.01.31-16.27.35:390][457]BlueprintEditorCompileResults: Info [0100.26] Compile of FirstPersonCharacter successful! [in 169 ms]
+[2016.01.31-16.27.37:763][717]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038CECE00
+[2016.01.31-16.27.37:814][717]LogSavePackage: Save=43.903530ms
+[2016.01.31-16.27.37:814][717]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevelAABA2D0E4364299AC8DA499C82BD440D.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/BondsLevel.umap'
+[2016.01.31-16.27.37:818][717]LogSavePackage: Total save time: 52.601334ms
+[2016.01.31-16.27.37:818][717]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/BondsLevel.umap
+[2016.01.31-16.27.38:635][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.27.38:636][811]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:27:38 AM)
+[2016.01.31-16.27.38:636][811]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_BondsLevel
+[2016.01.31-16.27.38:655][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018969s)
+[2016.01.31-16.27.38:656][811]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.27.38:656][811]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2016.01.31-16.27.38:656][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/BondsLevel.BondsLevel to /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel (0.020539s)
+[2016.01.31-16.27.38:684][811]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.27.38:692][811]LogInit: FAudioDevice initialized.
+[2016.01.31-16.27.38:735][811]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.27.38:735][811]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.27.38:735][811]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.27.38:735][811]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.27.38:739][811]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.27.38
+[2016.01.31-16.27.38:739][811]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.27.38:739][811]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.27.38:742][811]LogWorld: Bringing up level for play took: 0.006498
+[2016.01.31-16.27.38:742][811]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.01.31-16.27.38:744][811]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_BondsLevel 0.969
+[2016.01.31-16.27.41:711][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000521432E0
+[2016.01.31-16.27.44:758][521]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.01.31-16.27.53:533][538]Cmd: DELETE
+[2016.01.31-16.27.53:533][538]Cmd: ACTOR DELETE
+[2016.01.31-16.27.53:537][538]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2016.01.31-16.27.53:579][538]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2016.01.31-16.28.03:425][646]LogRenderer: Reallocating scene render targets to support 1168x616 (Frame:6095).
+[2016.01.31-16.28.09:498][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.28.09:498][362]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:28:09 AM)
+[2016.01.31-16.28.09:498][362]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_BondsLevel
+[2016.01.31-16.28.09:517][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019323s)
+[2016.01.31-16.28.09:519][362]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.28.09:519][362]LogPlayLevel: PIE: World Init took: (0.001649s)
+[2016.01.31-16.28.09:519][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/BondsLevel.BondsLevel to /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel (0.021182s)
+[2016.01.31-16.28.09:541][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005ECE77E0
+[2016.01.31-16.28.09:570][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.28.09:577][362]LogInit: FAudioDevice initialized.
+[2016.01.31-16.28.09:614][362]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.28.09:615][362]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.28.09:615][362]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.28.09:615][362]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.28.09:623][362]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.28.09
+[2016.01.31-16.28.09:623][362]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.28.09:623][362]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.28.09:624][362]LogWorld: Bringing up level for play took: 0.007092
+[2016.01.31-16.28.09:624][362]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
+[2016.01.31-16.28.09:626][362]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_BondsLevel -0.149
+[2016.01.31-16.28.14:842][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000524151C0
+[2016.01.31-16.28.26:133][323]Cmd: TRANSACTION UNDO
+[2016.01.31-16.28.26:133][323]LogEditorTransaction: Undo Create Actors
+[2016.01.31-16.28.41:076][ 56]LogSavePackage: Save=29.818489ms
+[2016.01.31-16.28.41:076][ 56]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevelE5123C014204FA17A7545D80725FBC08.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.28.41:089][ 56]LogSavePackage: Total save time: 42.506300ms
+[2016.01.31-16.28.41:089][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.28.41:113][ 56]LogFileHelpers: Saving map 'BondsLevel' took 0.144
+[2016.01.31-16.28.43:777][353]LogSavePackage: Save=28.144325ms
+[2016.01.31-16.28.43:777][353]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevel3CB73BE343D2A865B8CFFE9A3A4EBC2E.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.28.43:780][353]LogSavePackage: Total save time: 35.587460ms
+[2016.01.31-16.28.43:780][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.29.08:767][346]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-16.29.08:767][346]LightingResults: New page: Lighting Build
+[2016.01.31-16.29.08:781][346]LoadErrors: New page: Loading map: BondsLevel.umap
+[2016.01.31-16.29.08:781][346]MapCheck: New page: Map Check
+[2016.01.31-16.29.08:782][346]LightingResults: New page: Lighting Build
+[2016.01.31-16.29.08:799][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120A51C0
+[2016.01.31-16.29.08:816][346]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.29.08:820][346]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-16.29.08:842][346]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-16.29.08:894][346]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.862ms to complete.
+[2016.01.31-16.29.08:895][346]LogFileHelpers: Loading map 'BondsLevel' took 0.129
+[2016.01.31-16.29.22:481][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.29.22:481][940]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:29:22 AM)
+[2016.01.31-16.29.22:481][940]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.29.22:501][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019748s)
+[2016.01.31-16.29.22:502][940]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.29.22:502][940]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2016.01.31-16.29.22:502][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021328s)
+[2016.01.31-16.29.22:558][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.29.22:565][940]LogInit: FAudioDevice initialized.
+[2016.01.31-16.29.22:603][940]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.29.22:604][940]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.29.22:604][940]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.29.22:604][940]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.29.22:612][940]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.29.22
+[2016.01.31-16.29.22:612][940]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.29.22:613][940]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.29.22:613][940]LogWorld: Bringing up level for play took: 0.007528
+[2016.01.31-16.29.22:613][940]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
+[2016.01.31-16.29.22:615][940]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.839
+[2016.01.31-16.29.27:645][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000568196C0
+[2016.01.31-16.29.33:649][236]LogSavePackage: Save=37.457169ms
+[2016.01.31-16.29.33:649][236]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevel13AB0D7D4EDC08332D0538A7ED390E08.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.29.33:653][236]LogSavePackage: Total save time: 56.717221ms
+[2016.01.31-16.29.33:653][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.30.53:546][755]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.01.31-16.30.54:583][871]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.01.31-16.30.57:439][208]LogActorFactory: Actor Factory created Cube
+[2016.01.31-16.30.58:251][303]LogActorFactory: Actor Factory created Cube
+[2016.01.31-16.31.14:845][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.31-16.31.15:828][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.01.31-16.33.26:332][111]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at 120.00,-1900.00,300.00
+[2016.01.31-16.33.27:029][190]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at 140.00,-400.00,170.00
+[2016.01.31-16.34.03:154][505]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.01.31-16.34.06:316][867]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/CamTarget'
+[2016.01.31-16.34.06:316][867]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/CamTarget' while loading ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset.
+[2016.01.31-16.34.06:316][867]LoadErrors:Error: Error /Game/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat : Can't find file for asset. /Game/FirstPersonBP/Blueprints/CamTarget
+[2016.01.31-16.34.06:317][867]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/CamTarget'
+[2016.01.31-16.34.06:317][867]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/CamTarget' while loading ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset.
+[2016.01.31-16.34.06:317][867]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/CamTarget'
+[2016.01.31-16.34.06:317][867]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/CamTarget.CamTarget Referenced by MaterialExpressionTextureSample_0
+[2016.01.31-16.34.06:317][867]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/CamTarget' while loading NULL.
+[2016.01.31-16.34.06:321][867]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.06:322][867]LogMaterial:Warning: Failed to compile Material /Game/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.CamTarget_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.31-16.34.06:322][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.06:336][867]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.06:336][867]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CamTarget_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.31-16.34.06:336][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.06:392][867]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.06:392][867]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CamTarget_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.31-16.34.06:392][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.06:392][867]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.06:415][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.31-16.34.06:416][867]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.17:657][166]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.31-16.34.17:658][166]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.31-16.34.17:658][166]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.17:714][166]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.31-16.34.17:715][166]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.31-16.34.17:715][166]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.17:715][166]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.17:739][166]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.31-16.34.17:740][166]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2016.01.31-16.34.24:346][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056281800
+[2016.01.31-16.34.24:347][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000583F5A80
+[2016.01.31-16.34.30:490][331]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.31:487][434]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.31:528][434]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.31:531][434]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.31:558][434]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.31-16.34.32:682][501]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.01.31-16.34.32:682][501]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.31-16.34.32:682][501]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.01.31-16.34.40:162][205]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.40:165][205]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.40:886][252]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.01.31-16.34.40:886][252]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.31-16.34.40:886][252]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.01.31-16.34.41:473][310]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.41:476][310]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.41:512][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.31-16.34.42:153][351]LogMaterialEditor: Applying material CamTarget_Mat
+[2016.01.31-16.34.42:477][351]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.42:485][351]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.42:513][351]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.42:523][351]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.01.31-16.34.42:528][351]LogMaterial: 0.000475 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.31-16.34.43:544][422]LogMaterialEditor: Saving and Compiling material CamTarget_Mat
+[2016.01.31-16.34.44:380][422]LogSavePackage: Save=13.075100ms
+[2016.01.31-16.34.44:380][422]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamTarget_Mat15C3FD1F4D085D8BFA548EBB1CBED081.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset'
+[2016.01.31-16.34.44:385][422]LogSavePackage: Total save time: 17.664924ms
+[2016.01.31-16.34.44:385][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset
+[2016.01.31-16.34.44:389][422]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.01.31-16.34.44:389][422]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.31-16.34.44:389][422]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.31-16.35.10:911][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TempPic)
+[2016.01.31-16.35.45:476][925]LogRenderer: Reallocating scene render targets to support 1208x616 (Frame:51403).
+[2016.01.31-16.35.46:310][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.35.46:310][ 15]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:35:46 AM)
+[2016.01.31-16.35.46:311][ 15]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.35.46:331][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020486s)
+[2016.01.31-16.35.46:332][ 15]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.35.46:332][ 15]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2016.01.31-16.35.46:332][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021938s)
+[2016.01.31-16.35.46:364][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000583F65C0
+[2016.01.31-16.35.46:389][ 15]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.35.46:396][ 15]LogInit: FAudioDevice initialized.
+[2016.01.31-16.35.46:435][ 15]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.35.46:435][ 15]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.35.46:435][ 15]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.35.46:435][ 15]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.35.46:444][ 15]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.35.46
+[2016.01.31-16.35.46:444][ 15]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.35.46:445][ 15]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.35.46:446][ 15]LogWorld: Bringing up level for play took: 0.008071
+[2016.01.31-16.35.46:446][ 15]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_3's PathFollowingComponent
+[2016.01.31-16.35.46:448][ 15]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.67
+[2016.01.31-16.35.52:696][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056228540
+[2016.01.31-16.37.37:329][ 68]LogMetaData: Removing '/Game/BondVersion/FirstPersonBP/FirstPersonOverview2.SKEL_FirstPersonOverview2_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview2.PackageMetaData'
+[2016.01.31-16.37.37:329][ 68]LogMetaData: Removing '/Game/BondVersion/FirstPersonBP/FirstPersonOverview2.FirstPersonOverview2_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview2.PackageMetaData'
+[2016.01.31-16.37.37:372][ 68]LogSavePackage: Save=10.016876ms
+[2016.01.31-16.37.37:372][ 68]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonOverview22AD8B4D24FDB855A28FC41B5425B9EBC.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/FirstPersonOverview2.uasset'
+[2016.01.31-16.37.37:389][ 68]LogSavePackage: Total save time: 27.450249ms
+[2016.01.31-16.37.37:389][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/FirstPersonOverview2.uasset
+[2016.01.31-16.37.46:203][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.37.46:203][684]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:37:46 AM)
+[2016.01.31-16.37.46:203][684]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.37.46:222][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018461s)
+[2016.01.31-16.37.46:223][684]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.37.46:223][684]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2016.01.31-16.37.46:223][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.019917s)
+[2016.01.31-16.37.46:249][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056554CC0
+[2016.01.31-16.37.46:274][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.37.46:282][684]LogInit: FAudioDevice initialized.
+[2016.01.31-16.37.46:311][684]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.37.46:311][684]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.37.46:312][684]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.37.46:312][684]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.37.46:315][684]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.37.46
+[2016.01.31-16.37.46:315][684]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.37.46:315][684]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.37.46:316][684]LogWorld: Bringing up level for play took: 0.003512
+[2016.01.31-16.37.46:316][684]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_4's PathFollowingComponent
+[2016.01.31-16.37.46:317][684]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.54
+[2016.01.31-16.37.49:820][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038F57740
+[2016.01.31-16.39.31:802][149]LogRenderer: Reallocating scene render targets to support 1508x712 (Frame:75532).
+[2016.01.31-16.39.52:302][573]BlueprintLog: New page: Compile ThingOne
+[2016.01.31-16.39.52:364][573]BlueprintEditorCompileResults: Info [0837.23] Compile of ThingOne successful! [in 61 ms]
+[2016.01.31-16.39.53:008][642]LogSavePackage: Save=18.053972ms
+[2016.01.31-16.39.53:008][642]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingOne3A7E96164230A11C502096A96B731108.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingOne.uasset'
+[2016.01.31-16.39.53:012][642]LogSavePackage: Total save time: 22.283439ms
+[2016.01.31-16.39.53:012][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingOne.uasset
+[2016.01.31-16.40.28:009][717]BlueprintLog: New page: Compile ThingTwo
+[2016.01.31-16.40.28:069][717]BlueprintEditorCompileResults: Info [0872.94] Compile of ThingTwo successful! [in 59 ms]
+[2016.01.31-16.40.28:491][758]LogSavePackage: Save=18.787863ms
+[2016.01.31-16.40.28:491][758]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingTwoF0584D684609123144196C8033AD41CC.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingTwo.uasset'
+[2016.01.31-16.40.28:495][758]LogSavePackage: Total save time: 22.814754ms
+[2016.01.31-16.40.28:495][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingTwo.uasset
+[2016.01.31-16.41.14:535][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.41.14:535][908]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:41:14 AM)
+[2016.01.31-16.41.14:535][908]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.41.14:556][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021204s)
+[2016.01.31-16.41.14:558][908]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.41.14:558][908]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2016.01.31-16.41.14:558][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.022785s)
+[2016.01.31-16.41.14:597][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.41.14:603][908]LogInit: FAudioDevice initialized.
+[2016.01.31-16.41.14:635][908]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.14:635][908]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.14:635][908]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.41.14:635][908]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.41.14:640][908]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.41.14
+[2016.01.31-16.41.14:640][908]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.14:640][908]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.14:640][908]LogWorld: Bringing up level for play took: 0.004097
+[2016.01.31-16.41.14:640][908]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_5's PathFollowingComponent
+[2016.01.31-16.41.14:641][908]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.864
+[2016.01.31-16.41.18:077][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000085602CA0
+[2016.01.31-16.41.19:390][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.41.19:390][465]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:41:19 AM)
+[2016.01.31-16.41.19:390][465]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.41.19:409][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018605s)
+[2016.01.31-16.41.19:410][465]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.41.19:410][465]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2016.01.31-16.41.19:410][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020008s)
+[2016.01.31-16.41.19:436][465]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.41.19:443][465]LogInit: FAudioDevice initialized.
+[2016.01.31-16.41.19:481][465]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.19:481][465]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.19:481][465]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.41.19:481][465]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.41.19:493][465]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.41.19
+[2016.01.31-16.41.19:493][465]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.19:493][465]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.19:494][465]LogWorld: Bringing up level for play took: 0.010789
+[2016.01.31-16.41.19:494][465]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_6's PathFollowingComponent
+[2016.01.31-16.41.19:496][465]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.282
+[2016.01.31-16.41.20:634][598]Cmd: SELECT NONE
+[2016.01.31-16.41.22:201][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055F9EF20
+[2016.01.31-16.41.32:852][ 24]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.01.31-16.41.46:263][539]Cmd: DELETE
+[2016.01.31-16.41.46:263][539]Cmd: ACTOR DELETE
+[2016.01.31-16.41.46:264][539]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2016.01.31-16.41.46:322][539]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2016.01.31-16.41.47:998][740]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.01.31-16.41.51:754][188]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.01.31-16.41.52:504][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.41.52:504][275]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:41:52 AM)
+[2016.01.31-16.41.52:504][275]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.41.52:523][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018822s)
+[2016.01.31-16.41.52:524][275]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.41.52:524][275]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2016.01.31-16.41.52:525][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020523s)
+[2016.01.31-16.41.52:550][275]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.41.52:556][275]LogInit: FAudioDevice initialized.
+[2016.01.31-16.41.52:588][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.52:588][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.41.52:588][275]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.41.52:588][275]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.41.52:592][275]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.41.52
+[2016.01.31-16.41.52:592][275]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.52:592][275]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.41.52:593][275]LogWorld: Bringing up level for play took: 0.003423
+[2016.01.31-16.41.52:594][275]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.816
+[2016.01.31-16.41.54:810][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000449C5580
+[2016.01.31-16.41.59:023][ 31]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.01.31-16.42.12:294][613]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.01.31-16.42.17:259][204]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.01.31-16.42.20:585][585]Cmd: DELETE
+[2016.01.31-16.42.20:585][585]Cmd: ACTOR DELETE
+[2016.01.31-16.42.20:586][585]LogEditorActor: Deleted Actor: PlayerStart
+[2016.01.31-16.42.20:605][585]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.01.31-16.42.26:954][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.42.26:955][306]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:42:26 AM)
+[2016.01.31-16.42.26:955][306]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.42.26:975][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019904s)
+[2016.01.31-16.42.26:976][306]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.42.26:976][306]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2016.01.31-16.42.26:976][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021337s)
+[2016.01.31-16.42.27:031][306]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.42.27:038][306]LogInit: FAudioDevice initialized.
+[2016.01.31-16.42.27:069][306]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.42.27:069][306]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.42.27:069][306]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.42.27:069][306]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.42.27:073][306]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.42.27
+[2016.01.31-16.42.27:074][306]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.42.27:074][306]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.42.27:074][306]LogWorld: Bringing up level for play took: 0.003912
+[2016.01.31-16.42.27:074][306]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_7's PathFollowingComponent
+[2016.01.31-16.42.27:075][306]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.702
+[2016.01.31-16.42.29:886][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EA9A980
+[2016.01.31-16.42.47:727][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052417C40
+[2016.01.31-16.42.47:789][214]LogSavePackage: Save=45.230801ms
+[2016.01.31-16.42.47:789][214]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevelE26CE9BD422156E5874B57AC3928F62E.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.42.47:793][214]LogSavePackage: Total save time: 64.509291ms
+[2016.01.31-16.42.47:793][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.44.37:384][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.44.37:384][888]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:44:37 AM)
+[2016.01.31-16.44.37:385][888]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.44.37:410][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025676s)
+[2016.01.31-16.44.37:412][888]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.44.37:412][888]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2016.01.31-16.44.37:412][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.027543s)
+[2016.01.31-16.44.37:412][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.01.31-16.44.37:434][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055DA8540
+[2016.01.31-16.44.37:435][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052E400E0
+[2016.01.31-16.44.37:442][888]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.44.37:449][888]LogInit: FAudioDevice initialized.
+[2016.01.31-16.44.37:478][888]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.44.37:479][888]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.44.37:479][888]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.44.37:479][888]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.44.37:483][888]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.44.37
+[2016.01.31-16.44.37:483][888]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.44.37:483][888]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.44.37:483][888]LogWorld: Bringing up level for play took: 0.003960
+[2016.01.31-16.44.37:483][888]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_8's PathFollowingComponent
+[2016.01.31-16.44.37:484][888]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.294
+[2016.01.31-16.44.40:434][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016AB8D60
+[2016.01.31-16.44.44:784][679]LogActor:Warning: GameNetworkManager /Engine/Transient.World_16:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.46.48:270][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052540E00
+[2016.01.31-16.46.48:270][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069E07380
+[2016.01.31-16.46.51:032][ 32]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Failed import for FirstPersonCharacter_C /Game/Hotel/Blueprints/Player/FirstPersonCharacter.Default__FirstPersonCharacter_C [redirection] in /Game/FirstPersonBP/Blueprints/FirstPersonCharacter
+[2016.01.31-16.47.09:857][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.47.09:857][997]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:47:09 AM)
+[2016.01.31-16.47.09:857][997]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.47.09:877][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020257s)
+[2016.01.31-16.47.09:878][997]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.47.09:878][997]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2016.01.31-16.47.09:879][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021833s)
+[2016.01.31-16.47.09:930][997]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.47.09:937][997]LogInit: FAudioDevice initialized.
+[2016.01.31-16.47.09:967][997]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.47.09:967][997]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2016.01.31-16.47.09:967][997]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2016.01.31-16.47.09:967][997]LogWorld: Game class is 'GameMode'
+[2016.01.31-16.47.09:971][997]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.47.09
+[2016.01.31-16.47.09:971][997]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.47.09:972][997]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.47.09:972][997]LogWorld: Bringing up level for play took: 0.004054
+[2016.01.31-16.47.09:972][997]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_9's PathFollowingComponent
+[2016.01.31-16.47.09:973][997]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.193
+[2016.01.31-16.47.11:867][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000447E93A0
+[2016.01.31-16.47.14:215][477]LogSavePackage: Save=46.657894ms
+[2016.01.31-16.47.14:215][477]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevel125C37E449D9194EC1BF07841ACB2E33.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.47.14:220][477]LogSavePackage: Total save time: 57.914220ms
+[2016.01.31-16.47.14:220][477]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.47.20:834][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/CamPicCapBP.PackageMetaData'
+[2016.01.31-16.47.20:834][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_Event_303' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/CamPicCapBP.PackageMetaData'
+[2016.01.31-16.47.20:834][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_Event_304' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/CamPicCapBP.PackageMetaData'
+[2016.01.31-16.47.20:834][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:UserConstructionScript.K2Node_FunctionEntry_448' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/CamPicCapBP.PackageMetaData'
+[2016.01.31-16.47.20:834][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBP.SKEL_CamPicCapBP_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/CamPicCapBP.PackageMetaData'
+[2016.01.31-16.47.20:937][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2016.01.31-16.47.20:937][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.SKEL_FirstPersonProjectile_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2016.01.31-16.47.20:952][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/StuffA.StuffA' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/StuffA.PackageMetaData'
+[2016.01.31-16.47.20:952][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/StuffA.StuffA:ItemName_2_CEF36DAD46D3347519F6748046A98F6A' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/StuffA.PackageMetaData'
+[2016.01.31-16.47.20:952][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/StuffA.StuffA:ItemPic_5_32298A144CACC6750012989841CC97CF' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/StuffA.PackageMetaData'
+[2016.01.31-16.47.20:975][247]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_ThingOne_C_144' (it may have been removed)
+[2016.01.31-16.47.20:975][247]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube1' in BlueprintGeneratedClass 'REINST_ThingOne_C_144' (it may have been removed)
+[2016.01.31-16.47.20:998][247]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Sphere' in BlueprintGeneratedClass 'REINST_ThingTwo_C_148' (it may have been removed)
+[2016.01.31-16.47.20:998][247]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Sphere1' in BlueprintGeneratedClass 'REINST_ThingTwo_C_148' (it may have been removed)
+[2016.01.31-16.47.20:998][247]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_ThingTwo_C_148' (it may have been removed)
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.ItemManager:UserConstructionScript.K2Node_FunctionEntry_347' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.ItemManager_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.ItemManager:EventGraph.K2Node_Event_225' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.ItemManager:EventGraph.K2Node_Event_226' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.ItemManager:EventGraph.K2Node_Event_227' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:156][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ItemManager.SKEL_ItemManager_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ItemManager.PackageMetaData'
+[2016.01.31-16.47.21:239][247]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.47.21:389][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2016.01.31-16.47.21:389][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:PutInInv.K2Node_FunctionEntry_220' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2016.01.31-16.47.21:389][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:ItemTrace.K2Node_FunctionEntry_228' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2016.01.31-16.47.21:389][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2016.01.31-16.47.21:502][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InventoryWidget.InventoryWidget_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InventoryWidget.PackageMetaData'
+[2016.01.31-16.47.21:502][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InventoryWidget.InventoryWidget:EventGraph.K2Node_Event_175' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InventoryWidget.PackageMetaData'
+[2016.01.31-16.47.21:502][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InventoryWidget.SKEL_InventoryWidget_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InventoryWidget.PackageMetaData'
+[2016.01.31-16.47.21:518][247]LogBlueprint:Warning: [compiler InvItemPic] Warning Could not find a variable named "InventoryA" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get InventoryA 
+[2016.01.31-16.47.21:519][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.38] Compile of InvItemPic successful, but with 1 Warning(s) [in 4 ms]
+[2016.01.31-16.47.21:519][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.38] Compile of InvItemPic successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.31-16.47.21:519][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.38] Compile of InvItemPic successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.31-16.47.21:552][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.42] Compile of InvItemPic successful, but with 4 Warning(s) [in 32 ms]
+[2016.01.31-16.47.21:572][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.44] Compile of InvItemPic successful, but with 5 Warning(s) [in 20 ms]
+[2016.01.31-16.47.21:573][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.44] Compile of InvItemPic successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.31-16.47.21:573][247]LogBlueprint:Warning: [compiler InvItemPic] Warning [1286.44] Compile of InvItemPic successful, but with 7 Warning(s) [in 0 ms]
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:EventGraph.K2Node_Event_209' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:EventGraph.K2Node_Event_210' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:ItemName.K2Node_FunctionResult_0' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:ItemName.K2Node_FunctionEntry_323' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:Get_ItemPic_Brush_0.K2Node_FunctionResult_1' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.InvItemPic:Get_ItemPic_Brush_0.K2Node_FunctionEntry_1177' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:573][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/InvItemPic.SKEL_InvItemPic_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/InvItemPic.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.Enemy_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.Enemy:EventGraph.K2Node_Event_406' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.Enemy:EventGraph.K2Node_Event_407' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.Enemy:EventGraph.K2Node_Event_408' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.Enemy:UserConstructionScript.K2Node_FunctionEntry_369' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:642][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Enemy.SKEL_Enemy_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Enemy.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.ThingTwo:UserConstructionScript.K2Node_FunctionEntry_172' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.SKEL_ThingTwo_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.ThingTwo_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.ThingTwo:EventGraph.K2Node_Event_177' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.ThingTwo:EventGraph.K2Node_Event_178' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:706][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingTwo.ThingTwo:EventGraph.K2Node_Event_179' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingTwo.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.ThingOne:UserConstructionScript.K2Node_FunctionEntry_171' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.SKEL_ThingOne_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.ThingOne_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.ThingOne:EventGraph.K2Node_Event_174' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.ThingOne:EventGraph.K2Node_Event_175' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:772][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/ThingOne.ThingOne:EventGraph.K2Node_Event_176' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/ThingOne.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.Door_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.Door:EventGraph.K2Node_Event_149' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.Door:EventGraph.K2Node_Event_150' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.Door:EventGraph.K2Node_Event_151' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.Door:UserConstructionScript.K2Node_FunctionEntry_91' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:854][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Door.SKEL_Door_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Door.PackageMetaData'
+[2016.01.31-16.47.21:925][247]LogMetaData: Removing '/Game/FirstPersonBP/FirstPersonOverview2.FirstPersonOverview2_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/FirstPersonOverview2.PackageMetaData'
+[2016.01.31-16.47.21:925][247]LogMetaData: Removing '/Game/FirstPersonBP/FirstPersonOverview2.SKEL_FirstPersonOverview2_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/FirstPersonOverview2.PackageMetaData'
+[2016.01.31-16.47.22:003][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2016.01.31-16.47.22:003][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2016.01.31-16.47.22:066][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2016.01.31-16.47.22:066][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2016.01.31-16.47.22:083][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Stufffff.Stufffff' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Stufffff.PackageMetaData'
+[2016.01.31-16.47.22:083][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Stufffff.Stufffff:ItemPic_12_29FF2FA84D2B1D8A6755478F013048DD' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Stufffff.PackageMetaData'
+[2016.01.31-16.47.22:083][247]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Stufffff.Stufffff:ItemName_10_7F06D8F846CD542FCF3F17B6F1D55BBB' ref from Metadata '/Game/BondVersion/FirstPersonBP/Blueprints/Stufffff.PackageMetaData'
+[2016.01.31-16.47.22:122][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/CamPicCapBP" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBP.uasset" SILENT=true
+[2016.01.31-16.47.22:142][247]LogSavePackage: Save=15.978466ms
+[2016.01.31-16.47.22:142][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamPicCapBPCC7AA03A49AE0D4A35B6EDBF0936D541.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBP.uasset'
+[2016.01.31-16.47.22:144][247]LogSavePackage: Total save time: 18.876564ms
+[2016.01.31-16.47.22:144][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBP.uasset
+[2016.01.31-16.47.22:179][247]LogSavePackage: Save=21.938593ms
+[2016.01.31-16.47.22:179][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonProjectile49798C624F255FDABD996DA546C28BC2.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2016.01.31-16.47.22:183][247]LogSavePackage: Total save time: 26.244462ms
+[2016.01.31-16.47.22:183][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2016.01.31-16.47.22:189][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/StuffA" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/StuffA.uasset" SILENT=true
+[2016.01.31-16.47.22:198][247]LogSavePackage: Save=3.976833ms
+[2016.01.31-16.47.22:198][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/StuffA80A927C74E9178F060938AAC24072369.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/StuffA.uasset'
+[2016.01.31-16.47.22:203][247]LogSavePackage: Total save time: 8.786209ms
+[2016.01.31-16.47.22:203][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/StuffA.uasset
+[2016.01.31-16.47.22:209][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/ItemManager" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ItemManager.uasset" SILENT=true
+[2016.01.31-16.47.22:226][247]LogSavePackage: Save=13.089151ms
+[2016.01.31-16.47.22:226][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ItemManager7DF7DB26411E3C8ED376D2A7A088AEEB.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ItemManager.uasset'
+[2016.01.31-16.47.22:231][247]LogSavePackage: Total save time: 18.127739ms
+[2016.01.31-16.47.22:231][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ItemManager.uasset
+[2016.01.31-16.47.22:255][247]LogSavePackage: Save=4.149840ms
+[2016.01.31-16.47.22:255][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ItemManager3ECCB4384041C3680983B585EAB88F7F.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ItemManager.uasset'
+[2016.01.31-16.47.22:258][247]LogSavePackage: Total save time: 14.558107ms
+[2016.01.31-16.47.22:258][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ItemManager.uasset
+[2016.01.31-16.47.22:457][247]LogSavePackage: Save=189.390625ms
+[2016.01.31-16.47.22:457][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonCharacter2D437C8244019EF1859156A4AE71B5C3.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.31-16.47.22:462][247]LogSavePackage: Total save time: 194.471076ms
+[2016.01.31-16.47.22:462][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.31-16.47.22:493][247]LogSavePackage: Save=11.035016ms
+[2016.01.31-16.47.22:493][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonCharacter9B546CE540E2398D39B3E0A07DAB9E96.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.31-16.47.22:496][247]LogSavePackage: Total save time: 23.253858ms
+[2016.01.31-16.47.22:496][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.31-16.47.22:532][247]LogSavePackage: Save=22.477522ms
+[2016.01.31-16.47.22:532][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/InventoryWidget38EE651D4FF3A9D2F918239D9E14B554.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/InventoryWidget.uasset'
+[2016.01.31-16.47.22:536][247]LogSavePackage: Total save time: 26.533686ms
+[2016.01.31-16.47.22:536][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/InventoryWidget.uasset
+[2016.01.31-16.47.22:541][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/InvItemPic" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/InvItemPic.uasset" SILENT=true
+[2016.01.31-16.47.22:569][247]LogSavePackage: Save=24.376213ms
+[2016.01.31-16.47.22:569][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/InvItemPicF5892DFF42E7AEF3111C5E9027DC5F83.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/InvItemPic.uasset'
+[2016.01.31-16.47.22:573][247]LogSavePackage: Total save time: 28.545376ms
+[2016.01.31-16.47.22:573][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/InvItemPic.uasset
+[2016.01.31-16.47.22:593][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Enemy" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset" SILENT=true
+[2016.01.31-16.47.22:622][247]LogSavePackage: Save=24.817369ms
+[2016.01.31-16.47.22:622][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Enemy0753B39344CAB8360C2E369DE389BF18.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset'
+[2016.01.31-16.47.22:629][247]LogSavePackage: Total save time: 31.503774ms
+[2016.01.31-16.47.22:629][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset
+[2016.01.31-16.47.22:658][247]LogSavePackage: Save=4.301771ms
+[2016.01.31-16.47.22:658][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Enemy060EB926488EBF26AAB51EA65868979C.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/Enemy.uasset'
+[2016.01.31-16.47.22:661][247]LogSavePackage: Total save time: 15.292585ms
+[2016.01.31-16.47.22:661][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/Enemy.uasset
+[2016.01.31-16.47.22:678][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/ThingTwo" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset" SILENT=true
+[2016.01.31-16.47.22:701][247]LogSavePackage: Save=19.013271ms
+[2016.01.31-16.47.22:701][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingTwoB4981E984B5CE312C7B4C7B12B895DAB.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset'
+[2016.01.31-16.47.22:705][247]LogSavePackage: Total save time: 22.931263ms
+[2016.01.31-16.47.22:705][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset
+[2016.01.31-16.47.22:728][247]LogSavePackage: Save=4.602997ms
+[2016.01.31-16.47.22:728][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingTwo9CABE8694A32E997D5A6A58B7CCD90B2.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingTwo.uasset'
+[2016.01.31-16.47.22:731][247]LogSavePackage: Total save time: 15.749842ms
+[2016.01.31-16.47.22:731][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingTwo.uasset
+[2016.01.31-16.47.22:751][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/ThingOne" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset" SILENT=true
+[2016.01.31-16.47.22:773][247]LogSavePackage: Save=18.469658ms
+[2016.01.31-16.47.22:773][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingOneC5BC105C439AA0D3A30E8581D3E1EA80.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset'
+[2016.01.31-16.47.22:776][247]LogSavePackage: Total save time: 21.163132ms
+[2016.01.31-16.47.22:776][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset
+[2016.01.31-16.47.22:801][247]LogSavePackage: Save=5.985887ms
+[2016.01.31-16.47.22:801][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingOne037246CC42FD86A1FD92B2BA31316974.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingOne.uasset'
+[2016.01.31-16.47.22:804][247]LogSavePackage: Total save time: 17.178688ms
+[2016.01.31-16.47.22:804][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/ThingOne.uasset
+[2016.01.31-16.47.22:817][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/CamTarget" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamTarget.uasset" SILENT=true
+[2016.01.31-16.47.22:830][247]LogSavePackage: Save=9.283863ms
+[2016.01.31-16.47.22:830][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamTargetAE539CAB42966A383C923A8AD4838467.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamTarget.uasset'
+[2016.01.31-16.47.22:833][247]LogSavePackage: Total save time: 12.975279ms
+[2016.01.31-16.47.22:833][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamTarget.uasset
+[2016.01.31-16.47.22:854][247]LogSavePackage: Save=3.521041ms
+[2016.01.31-16.47.22:854][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamTargetA8F1978A427D1F54C8F92EA53B7B737B.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget.uasset'
+[2016.01.31-16.47.22:857][247]LogSavePackage: Total save time: 14.399149ms
+[2016.01.31-16.47.22:857][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget.uasset
+[2016.01.31-16.47.22:874][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Door" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Door.uasset" SILENT=true
+[2016.01.31-16.47.22:908][247]LogSavePackage: Save=30.967773ms
+[2016.01.31-16.47.22:908][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Door1F0B83BC428A20EBC8D1E5B416AA6FC3.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Door.uasset'
+[2016.01.31-16.47.22:913][247]LogSavePackage: Total save time: 35.649225ms
+[2016.01.31-16.47.22:913][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Door.uasset
+[2016.01.31-16.47.22:940][247]LogSavePackage: Save=4.872315ms
+[2016.01.31-16.47.22:940][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Door4D9B245841C55A96DC7D398098F342F0.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/Door.uasset'
+[2016.01.31-16.47.22:944][247]LogSavePackage: Total save time: 16.871605ms
+[2016.01.31-16.47.22:944][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/Door.uasset
+[2016.01.31-16.47.22:953][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/HoopPic" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/HoopPic.uasset" SILENT=true
+[2016.01.31-16.47.22:963][247]LogSavePackage: Save=5.670609ms
+[2016.01.31-16.47.22:963][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/HoopPic534F1CEA4C481C2CBBD530A094B1BD38.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/HoopPic.uasset'
+[2016.01.31-16.47.22:967][247]LogSavePackage: Total save time: 10.322493ms
+[2016.01.31-16.47.22:967][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/HoopPic.uasset
+[2016.01.31-16.47.22:972][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/FirstPersonOverview2" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/FirstPersonOverview2.uasset" SILENT=true
+[2016.01.31-16.47.22:985][247]LogSavePackage: Save=8.431998ms
+[2016.01.31-16.47.22:985][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonOverview29F65C3D94F2AC25624D02CAFDCCF7423.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/FirstPersonOverview2.uasset'
+[2016.01.31-16.47.22:991][247]LogSavePackage: Total save time: 14.953300ms
+[2016.01.31-16.47.22:991][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/FirstPersonOverview2.uasset
+[2016.01.31-16.47.23:025][247]LogSavePackage: Save=13.404429ms
+[2016.01.31-16.47.23:025][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamTarget_MatF7C7589D4CFF18FD78D2F6A9ED5D949F.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamTarget_Mat.uasset'
+[2016.01.31-16.47.23:028][247]LogSavePackage: Total save time: 16.639758ms
+[2016.01.31-16.47.23:028][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamTarget_Mat.uasset
+[2016.01.31-16.47.23:052][247]LogSavePackage: Save=5.338645ms
+[2016.01.31-16.47.23:052][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamTarget_Mat8E3DF32A48447B8359643DB27CB42F7B.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset'
+[2016.01.31-16.47.23:055][247]LogSavePackage: Total save time: 17.270900ms
+[2016.01.31-16.47.23:055][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Blueprints/CamTarget_Mat.uasset
+[2016.01.31-16.47.23:086][247]LogSavePackage: Save=20.796919ms
+[2016.01.31-16.47.23:086][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonHUD683E54194C0A30B856030DA2E5542FE1.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2016.01.31-16.47.23:089][247]LogSavePackage: Total save time: 24.372701ms
+[2016.01.31-16.47.23:089][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2016.01.31-16.47.23:109][247]LogSavePackage: Save=8.309049ms
+[2016.01.31-16.47.23:109][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonGameMode4614D41D4339FAC739B885B6FC97A09E.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2016.01.31-16.47.23:112][247]LogSavePackage: Total save time: 11.079803ms
+[2016.01.31-16.47.23:112][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2016.01.31-16.47.23:118][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Stufffff" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Stufffff.uasset" SILENT=true
+[2016.01.31-16.47.23:129][247]LogSavePackage: Save=6.327511ms
+[2016.01.31-16.47.23:129][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Stufffff051EE8D24E514BEB5D4451AED6720E78.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Stufffff.uasset'
+[2016.01.31-16.47.23:136][247]LogSavePackage: Total save time: 13.551679ms
+[2016.01.31-16.47.23:136][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Stufffff.uasset
+[2016.01.31-16.47.23:144][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/Faith" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/Faith.uasset" SILENT=true
+[2016.01.31-16.47.23:152][247]LogSavePackage: Save=5.369968ms
+[2016.01.31-16.47.23:152][247]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Faith29958AD0469F3EAE4BEA389BB17BB968.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/Faith.uasset'
+[2016.01.31-16.47.23:157][247]LogSavePackage: Total save time: 10.111429ms
+[2016.01.31-16.47.23:157][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Textures/Faith.uasset
+[2016.01.31-16.47.26:866][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.47.26:866][587]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:47:26 AM)
+[2016.01.31-16.47.26:866][587]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.47.26:885][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019457s)
+[2016.01.31-16.47.26:886][587]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.47.26:887][587]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2016.01.31-16.47.26:887][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020918s)
+[2016.01.31-16.47.26:939][587]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.47.26:946][587]LogInit: FAudioDevice initialized.
+[2016.01.31-16.47.26:977][587]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-16.47.26:981][587]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.47.26
+[2016.01.31-16.47.26:981][587]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.47.26:981][587]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.47.26:982][587]LogWorld: Bringing up level for play took: 0.004099
+[2016.01.31-16.47.26:982][587]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_10's PathFollowingComponent
+[2016.01.31-16.47.26:982][587]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-16.47.26:983][587]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.797
+[2016.01.31-16.47.38:632][974]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000683CCF40
+[2016.01.31-16.48.12:882][ 66]LogSavePackage: Save=45.893559ms
+[2016.01.31-16.48.12:882][ 66]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevelDD474C674DD3044B7371A494A5944E91.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.48.12:886][ 66]LogSavePackage: Total save time: 68.130448ms
+[2016.01.31-16.48.12:886][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.48.12:908][ 66]LogFileHelpers: Saving map 'BondsLevel' took 0.174
+[2016.01.31-16.48.12:912][ 66]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/BondVersion/FirstPersonBP/Level/BondsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-16.48.12:912][ 66]LightingResults: New page: Lighting Build
+[2016.01.31-16.48.12:929][ 66]LoadErrors: New page: Loading map: BondsLevel.umap
+[2016.01.31-16.48.12:953][ 66]MapCheck: New page: Map Check
+[2016.01.31-16.48.12:953][ 66]LightingResults: New page: Lighting Build
+[2016.01.31-16.48.12:970][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DF4D760
+[2016.01.31-16.48.13:017][ 66]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.48.13:025][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-16.48.13:052][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-16.48.13:108][ 66]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.204ms to complete.
+[2016.01.31-16.48.13:108][ 66]LogFileHelpers: Loading map 'BondsLevel' took 0.200
+[2016.01.31-16.48.14:247][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-16.48.14:247][185]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 6:48:14 AM)
+[2016.01.31-16.48.14:247][185]LogPlayLevel: Creating play world package: /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-16.48.14:272][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024754s)
+[2016.01.31-16.48.14:273][185]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-16.48.14:273][185]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2016.01.31-16.48.14:273][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BondVersion/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.026091s)
+[2016.01.31-16.48.14:305][185]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-16.48.14:312][185]LogInit: FAudioDevice initialized.
+[2016.01.31-16.48.14:344][185]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-16.48.14:348][185]LogWorld: Bringing World /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-11.48.14
+[2016.01.31-16.48.14:348][185]LogActor:Warning: GameSession /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.48.14:348][185]LogActor:Warning: GameNetworkManager /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-16.48.14:349][185]LogWorld: Bringing up level for play took: 0.004498
+[2016.01.31-16.48.14:349][185]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_11's PathFollowingComponent
+[2016.01.31-16.48.14:349][185]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-16.48.14:350][185]PIE: Info Play in editor start time for /Game/BondVersion/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.57
+[2016.01.31-16.48.17:894][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056246CA0
+[2016.01.31-16.48.39:497][155]LogSavePackage: Save=47.099926ms
+[2016.01.31-16.48.39:497][155]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevel5DE325DD40F6C2F30F8E6F9E505E0FF3.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.48.39:502][155]LogSavePackage: Total save time: 51.968440ms
+[2016.01.31-16.48.39:502][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.48.39:527][155]LogFileHelpers: Saving map 'BondsLevel' took 0.157
+[2016.01.31-16.49.08:347][783]LogSavePackage: Save=44.870441ms
+[2016.01.31-16.49.08:347][783]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevelDC724ECA4D3FCC83050592BB51233389.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-16.49.08:349][783]LogSavePackage: Total save time: 51.803038ms
+[2016.01.31-16.49.08:349][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-16.49.55:075][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005ECE7CE0
+[2016.01.31-16.49.55:358][564]Cmd: QUIT_EDITOR
+[2016.01.31-16.49.55:522][564]LogExit: Preparing to exit.
+[2016.01.31-16.49.56:065][564]LogActorComponent: UnregisterComponent: (None.StaticMeshComponent_460) Not registered. Aborting.
+[2016.01.31-16.49.56:108][564]LogExit: Editor shut down
+[2016.01.31-16.49.56:109][564]LogExit: Transaction tracking system shut down
+[2016.01.31-16.49.56:109][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C2C360
+[2016.01.31-16.49.56:109][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012822D40
+[2016.01.31-16.49.56:113][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005601E520
+[2016.01.31-16.49.56:113][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000562F63E0
+[2016.01.31-16.49.56:114][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000683CD1C0
+[2016.01.31-16.49.56:283][564]LogExit: Object subsystem successfully closed.
+[2016.01.31-16.49.56:302][564]LogD3D11RHI: Shutdown
+[2016.01.31-16.49.56:302][564]LogD3D11RHI: CleanupD3DDevice
+[2016.01.31-16.49.56:304][564]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.31-16.49.56:411][564]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.01.31-16.49.56:411][564]LogModuleManager: Shutting down and abandoning module TextureEditor (202)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.31-16.49.56:412][564]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.31-16.49.56:413][564]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.31-16.49.56:778][564]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.31-16.49.56:779][564]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.31-16.49.56:941][564]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.31-16.49.56:941][564]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.31-16.49.56:942][564]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.31-16.49.56:968][564]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.31-16.49.56:969][564]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.31-16.49.56:969][564]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.31-16.49.56:969][564]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.31-16.49.56:969][564]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.31-16.49.56:969][564]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.31-16.49.56:970][564]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.31-16.49.56:971][564]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.31-16.49.57:144][564]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.31-16.49.57:144][564]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.31-16.49.57:144][564]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.31-16.49.57:244][564]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.31-16.49.57:244][564]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.31-16.49.57:244][564]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.31-16.49.57:246][564]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.31-16.49.57:246][564]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.31-16.49.57:247][564]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.31-16.49.57:249][564]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.31-16.49.57:332][564]LogDerivedDataCache: Shutdown
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.31-16.49.57:332][564]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.31-16.49.58:333][564]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.31-16.49.58:341][564]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.31-16.49.58:344][564]LogExit: Exiting.
+[2016.01.31-16.49.58:373][564]Log file closed, 01/31/16 11:49:58

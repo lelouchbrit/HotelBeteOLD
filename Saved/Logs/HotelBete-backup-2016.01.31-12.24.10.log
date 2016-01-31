@@ -1,0 +1,788 @@
+﻿[2016.01.31-17.16.34:559][  0]Log file open, 01/31/16 12:16:34
+[2016.01.31-17.16.34:559][  0]LogInit:Display: Running engine for game: HotelBete
+[2016.01.31-17.16.34:559][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.31-17.16.34:559][  0]LogInit:Display: RandInit(-1719295809) SRandInit(-1719295808).
+[2016.01.31-17.16.34:559][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.31-17.16.34:559][  0]LogStats: Stats thread started at 0.064710
+[2016.01.31-17.16.34:559][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-17.16.34:559][  0]LogInit: API Version: 2758231
+[2016.01.31-17.16.34:559][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.31-17.16.34:559][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.31-17.16.34:559][  0]LogInit: Build Configuration: Development
+[2016.01.31-17.16.34:559][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.31-17.16.34:559][  0]LogInit: Command line:  
+[2016.01.31-17.16.34:559][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.31-17.16.34:559][  0]LogInit: Rocket: 1
+[2016.01.31-17.16.34:569][  0]LogInit: Using libcurl 7.41.0
+[2016.01.31-17.16.34:569][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.31-17.16.34:569][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.31-17.16.34:569][  0]LogInit:  - other features:
+[2016.01.31-17.16.34:569][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.31-17.16.34:569][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.31-17.16.34:569][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.31-17.16.34:569][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.31-17.16.34:569][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.31-17.16.34:569][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.31-17.16.34:569][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.31-17.16.34:569][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.31-17.16.34:569][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.31-17.16.34:569][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.31-17.16.34:569][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.31-17.16.34:579][  0]LogInit: Object subsystem initialized
+[2016.01.31-17.16.34:579][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-17.16.34:579][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.31-17.16.34:579][  0]LogInit: Computer: MRRBOND-PC
+[2016.01.31-17.16.34:579][  0]LogInit: User: MrrBond
+[2016.01.31-17.16.34:579][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.31-17.16.34:579][  0]LogInit: High frequency timer resolution =3.416035 MHz
+[2016.01.31-17.16.34:579][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.31-17.16.34:579][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.31-17.16.34:579][  0]LogMemory: Process Physical Memory: 57.66 MB used, 57.66 MB peak
+[2016.01.31-17.16.34:579][  0]LogMemory: Process Virtual Memory: 57.52 MB used, 57.52 MB peak
+[2016.01.31-17.16.34:579][  0]LogMemory: Physical Memory: 2509.66 MB used, 8134.93 MB total
+[2016.01.31-17.16.34:579][  0]LogMemory: Virtual Memory: 351.33 MB used, 8388608.00 MB total
+[2016.01.31-17.16.34:613][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.31-17.16.34:949][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2016.01.31-17.16.34:949][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.31-17.16.34:949][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.31-17.16.34:954][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.31-17.16.34:954][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.31-17.16.34:962][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.31-17.16.34:975][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/8688/).
+[2016.01.31-17.16.34:976][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MrrBond/AppData/Local/Temp/UnrealShaderWorkingDir/A3DED1AF4ADDD58C9E2FF8B9C24F8198/'.
+[2016.01.31-17.16.34:976][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.31-17.16.35:583][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.31-17.16.35:587][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.31-17.16.35:591][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.31-17.16.35:595][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.31-17.16.35:598][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.31-17.16.35:601][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.31-17.16.35:603][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.31-17.16.35:606][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.31-17.16.35:608][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.31-17.16.35:611][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.31-17.16.35:614][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.31-17.16.35:619][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.31-17.16.35:619][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.31-17.16.35:620][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.31-17.16.35:635][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.31-17.16.35:637][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.31-17.16.35:639][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.31-17.16.35:643][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.31-17.16.35:643][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.31-17.16.35:712][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.31-17.16.35:751][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.31-17.16.35:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.31-17.16.35:810][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MrrBond/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.31-17.16.35:939][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-17.16.35:940][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.31-17.16.35:971][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.31-17.16.35:971][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.31-17.16.36:224][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.31-17.16.36:876][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.31-17.16.37:000][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.31-17.16.37:148][  0]SourceControl: Info Source control is disabled
+[2016.01.31-17.16.37:149][  0]SourceControl: Info Source control is disabled
+[2016.01.31-17.16.37:159][  0]SourceControl: Info Source control is disabled
+[2016.01.31-17.16.37:169][  0]SourceControl: Info Source control is disabled
+[2016.01.31-17.16.37:385][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.31-17.16.37:385][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.31-17.16.37:431][  0]LogEngine: Initializing Engine...
+[2016.01.31-17.16.37:433][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-17.16.37:433][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.31-17.16.37:539][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.31-17.16.37:544][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.16.37:573][  0]LogInit: FAudioDevice initialized.
+[2016.01.31-17.16.37:600][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-17.16.37:605][  0]LogInit: Texture streaming: Enabled
+[2016.01.31-17.16.37:609][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.31-17.16.37:609][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-17.16.37:609][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 70d505b9489753c526a513886a8eb1a2|20388df98dc841109316ca5aa4c25788|5df8a1b8-928f-4cc0-8ccd-f95831ba8036
+[2016.01.31-17.16.37:609][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.31-17.16.37:630][  0]LogInit: Transaction tracking system initialized
+[2016.01.31-17.16.37:653][  0]BlueprintLog: New page: Editor Load
+[2016.01.31-17.16.37:716][  0]LocalizationService: Info Localization service is disabled
+[2016.01.31-17.16.37:769][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.31-17.16.37:769][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.31-17.16.37:770][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.01.31-17.16.37:779][  0]LogConsoleResponse:Display: 
+[2016.01.31-17.16.37:870][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.31-17.16.37:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/' took 0.02s
+[2016.01.31-17.16.37:919][  0]SourceControl: Info Source control is disabled
+[2016.01.31-17.16.37:919][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-17.16.37:920][  0]LightingResults: New page: Lighting Build
+[2016.01.31-17.16.37:922][  0]MapCheck: New page: Map Check
+[2016.01.31-17.16.37:922][  0]LightingResults: New page: Lighting Build
+[2016.01.31-17.16.37:932][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002390AAC0
+[2016.01.31-17.16.37:992][  0]LogLinker:Warning: Asset '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.31-17.16.38:419][  0]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.16.38:431][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-17.16.38:431][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-17.16.38:478][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.437ms to complete.
+[2016.01.31-17.16.38:478][  0]LogFileHelpers: Loading map 'BondsLevel' took 0.559
+[2016.01.31-17.16.38:565][  0]LogCollectionManager: Loaded 0 collections in 0.003031 seconds
+[2016.01.31-17.16.38:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.01.31-17.16.38:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Developers/MrrBond/Collections/' took 0.01s
+[2016.01.31-17.16.38:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.01.31-17.16.38:601][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.01.31-17.16.38:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1893 classes and 338 folders.
+[2016.01.31-17.16.38:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.31-17.16.38:656][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.31-17.16.38:659][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.31-17.16.38:672][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.31-17.16.38:676][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.31-17.16.38:697][  0]LogLoad: Full Startup: 4.45 seconds (BP compile: 0.12 seconds)
+[2016.01.31-17.16.38:707][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-17.16.38:755][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.31-17.16.38:790][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:1).
+[2016.01.31-17.16.38:857][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.01.31-17.16.38:978][  4]LogAssetRegistry: Asset discovery search completed in 1.9890 seconds
+[2016.01.31-17.16.38:978][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.31-17.16.38:978][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.01.31-17.16.50:529][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.16.50:529][ 33]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:16:50 AM)
+[2016.01.31-17.16.50:529][ 33]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.16.50:553][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024102s)
+[2016.01.31-17.16.50:555][ 33]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.16.50:555][ 33]LogPlayLevel: PIE: World Init took: (0.002049s)
+[2016.01.31-17.16.50:555][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.026421s)
+[2016.01.31-17.16.50:586][ 33]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.16.50:594][ 33]LogInit: FAudioDevice initialized.
+[2016.01.31-17.16.50:643][ 33]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.16.50:646][ 33]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.16.50
+[2016.01.31-17.16.50:647][ 33]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.16.50:647][ 33]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.16.50:647][ 33]LogWorld: Bringing up level for play took: 0.003597
+[2016.01.31-17.16.50:647][ 33]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.01.31-17.16.50:648][ 33]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.16.50:649][ 33]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.855
+[2016.01.31-17.16.53:726][398]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 
+[2016.01.31-17.16.55:750][641]LogBlueprintUserMessages: [FirstPersonCharacter_C_10] 
+[2016.01.31-17.17.10:429][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000032D45E0
+[2016.01.31-17.17.31:784][563]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.31-17.17.32:082][563]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.01.31-17.17.45:234][  9]BlueprintLog: New page: Compile ThingOne
+[2016.01.31-17.17.45:290][  9]BlueprintEditorCompileResults: Info [0071.04] Compile of ThingOne successful! [in 55 ms]
+[2016.01.31-17.17.45:776][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/ThingOne" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset" SILENT=true
+[2016.01.31-17.17.45:809][ 61]LogSavePackage: Save=17.691856ms
+[2016.01.31-17.17.45:809][ 61]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingOne9E06F92B41D48744F70FD996C1114247.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset'
+[2016.01.31-17.17.45:813][ 61]LogSavePackage: Total save time: 33.498194ms
+[2016.01.31-17.17.45:813][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingOne.uasset
+[2016.01.31-17.17.55:610][222]BlueprintLog: New page: Compile ThingTwo
+[2016.01.31-17.17.55:665][222]BlueprintEditorCompileResults: Info [0081.42] Compile of ThingTwo successful! [in 54 ms]
+[2016.01.31-17.17.56:325][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/ThingTwo" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset" SILENT=true
+[2016.01.31-17.17.56:355][297]LogSavePackage: Save=18.555723ms
+[2016.01.31-17.17.56:355][297]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/ThingTwo23A651174270AF3686DDE4ACE9064DB0.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset'
+[2016.01.31-17.17.56:358][297]LogSavePackage: Total save time: 30.059993ms
+[2016.01.31-17.17.56:358][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/ThingTwo.uasset
+[2016.01.31-17.17.56:908][363]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.31-17.17.57:685][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.17.57:685][448]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:17:57 AM)
+[2016.01.31-17.17.57:685][448]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.17.57:704][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019156s)
+[2016.01.31-17.17.57:705][448]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.17.57:706][448]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2016.01.31-17.17.57:706][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020654s)
+[2016.01.31-17.17.57:731][448]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.17.57:738][448]LogInit: FAudioDevice initialized.
+[2016.01.31-17.17.57:767][448]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.17.57:772][448]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.17.57
+[2016.01.31-17.17.57:772][448]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.17.57:772][448]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.17.57:773][448]LogWorld: Bringing up level for play took: 0.003907
+[2016.01.31-17.17.57:773][448]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
+[2016.01.31-17.17.57:773][448]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.17.57:774][448]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.021
+[2016.01.31-17.17.59:946][706]LogBlueprintUserMessages: [FirstPersonCharacter_C_11] Hoop
+[2016.01.31-17.18.01:130][848]LogBlueprintUserMessages: [FirstPersonCharacter_C_11] Faith
+[2016.01.31-17.18.09:437][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF91E40
+[2016.01.31-17.19.02:839][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049179760
+[2016.01.31-17.19.02:839][976]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:UserConstructionScript.K2Node_FunctionEntry_89' ref from Metadata '/Game/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.PackageMetaData'
+[2016.01.31-17.19.02:839][976]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBp2.SKEL_CamPicCapBp2_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.PackageMetaData'
+[2016.01.31-17.19.02:839][976]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.PackageMetaData'
+[2016.01.31-17.19.02:839][976]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_Event_146' ref from Metadata '/Game/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.PackageMetaData'
+[2016.01.31-17.19.02:839][976]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_Event_147' ref from Metadata '/Game/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.PackageMetaData'
+[2016.01.31-17.19.02:879][976]LogSavePackage: Save=10.983201ms
+[2016.01.31-17.19.02:879][976]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamPicCapBp264EECC13424C48686129D1970FBA9AF7.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBp2.uasset'
+[2016.01.31-17.19.02:882][976]LogSavePackage: Total save time: 14.011566ms
+[2016.01.31-17.19.02:882][976]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBp2.uasset
+[2016.01.31-17.19.45:004][248]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CallFunction_3789
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789.EdGraphPin_1956) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CustomEvent_74.EdGraphPin_1869).  Import failed...
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_1956''
+[2016.01.31-17.19.45:004][248]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CallFunction_3789
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789.EdGraphPin_1959) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CustomEvent_74.EdGraphPin_1870).  Import failed...
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_1959''
+[2016.01.31-17.19.45:004][248]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CallFunction_3789
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789.EdGraphPin_1960) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CustomEvent_74.EdGraphPin_1871).  Import failed...
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_1960''
+[2016.01.31-17.19.45:004][248]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_CallFunction_3789
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBP.CamPicCapBP:EventGraph.K2Node_CallFunction_3789.EdGraphPin_1958) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/CamPicCapBp2.CamPicCapBp2:EventGraph.K2Node_VariableGet_1817.EdGraphPin_1909).  Import failed...
+[2016.01.31-17.19.45:004][248]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_1958''
+[2016.01.31-17.19.46:155][385]BlueprintLog: New page: Compile CamPicCapBp2
+[2016.01.31-17.19.46:231][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000804BE2A0
+[2016.01.31-17.19.46:235][385]BlueprintEditorCompileResults: Info [0191.99] Compile of CamPicCapBp2 successful! [in 79 ms]
+[2016.01.31-17.19.54:722][397]LogSavePackage: Save=15.529993ms
+[2016.01.31-17.19.54:722][397]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/CamPicCapBp2CA4B14CA4803425215A41A86A244C352.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBp2.uasset'
+[2016.01.31-17.19.54:726][397]LogSavePackage: Total save time: 27.412776ms
+[2016.01.31-17.19.54:726][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/CamPicCapBp2.uasset
+[2016.01.31-17.19.55:997][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.31-17.19.57:125][672]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-17.19.57:168][672]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Out Actors  and  Target Array : Array of Cam Pic Cap Bp 2 References is not compatible with Array of Cam Pic Cap BP References.
+[2016.01.31-17.19.57:168][672]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Out Actors  and  Target Array : Array of Cam Pic Cap Bp 2 References is not compatible with Array of Cam Pic Cap BP References.
+[2016.01.31-17.19.57:168][672]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.01.31-17.19.57:168][672]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.01.31-17.19.57:169][672]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Target Array  and  Out Actors : Array of Cam Pic Cap BP References is not compatible with Array of Cam Pic Cap Bp 2 References.
+[2016.01.31-17.19.57:169][672]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Target Array  and  Out Actors : Array of Cam Pic Cap BP References is not compatible with Array of Cam Pic Cap Bp 2 References.
+[2016.01.31-17.19.57:340][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057677BA0
+[2016.01.31-17.19.57:350][672]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0203.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 4 Warning(s) [in 224 ms]
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Cam Pic Cap Bp 2 References is not compatible with Array of Cam Pic Cap BP References.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Cam Pic Cap Bp 2 References is not compatible with Array of Cam Pic Cap BP References.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Cam Pic Cap BP References is not compatible with Array of Cam Pic Cap Bp 2 References.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Cam Pic Cap BP References is not compatible with Array of Cam Pic Cap Bp 2 References.
+[2016.01.31-17.19.57:350][672]BlueprintEditorCompileResults:Warning: Warning [0203.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 4 Warning(s) [in 224 ms]
+[2016.01.31-17.20.22:610][600]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-17.20.22:656][600]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a CamPicCapBP_C, therefore ' Target ' must have a connection.
+[2016.01.31-17.20.22:811][600]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0228.57] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 200 ms]
+[2016.01.31-17.20.22:811][600]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CamPicCapBP_C, therefore ' Target ' must have a connection.
+[2016.01.31-17.20.22:811][600]BlueprintEditorCompileResults:Warning: Warning [0228.57] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 200 ms]
+[2016.01.31-17.20.49:171][679]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-17.20.49:332][679]BlueprintEditorCompileResults: Info [0255.09] Compile of FirstPersonCharacter successful! [in 160 ms]
+[2016.01.31-17.20.50:199][749]LogSavePackage: Save=170.567337ms
+[2016.01.31-17.20.50:199][749]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/FirstPersonCharacterE3E29DDD475FBBFFDE79ED980DBC48E3.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.31-17.20.50:203][749]LogSavePackage: Total save time: 183.366094ms
+[2016.01.31-17.20.50:203][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.31-17.20.50:656][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.31-17.20.51:849][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.20.51:849][927]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:20:51 AM)
+[2016.01.31-17.20.51:849][927]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.20.51:869][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019699s)
+[2016.01.31-17.20.51:870][927]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.20.51:871][927]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2016.01.31-17.20.51:871][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021257s)
+[2016.01.31-17.20.51:898][927]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.20.51:906][927]LogInit: FAudioDevice initialized.
+[2016.01.31-17.20.51:934][927]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.20.51:938][927]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.20.51
+[2016.01.31-17.20.51:938][927]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.20.51:938][927]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.20.51:938][927]LogWorld: Bringing up level for play took: 0.003494
+[2016.01.31-17.20.51:938][927]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
+[2016.01.31-17.20.51:939][927]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.20.51:940][927]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.144
+[2016.01.31-17.21.00:254][922]LogBlueprintUserMessages: [FirstPersonCharacter_C_49] Faith
+[2016.01.31-17.21.01:563][ 79]LogBlueprintUserMessages: [FirstPersonCharacter_C_49] Hoop
+[2016.01.31-17.21.06:923][722]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.06:923][722]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.07:182][753]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.07:182][753]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.07:473][788]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.07:473][788]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.07:715][817]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.07:715][817]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.07:932][843]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.07:932][843]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:115][865]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:115][865]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:248][881]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:248][881]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:398][899]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:398][899]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:540][916]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:540][916]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:690][934]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:690][934]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:840][952]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:840][952]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.08:965][967]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_49
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.21.08:965][967]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.21.09:215][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008020C2C0
+[2016.01.31-17.21.17:083][875]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.01.31-17.21.58:761][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.21.58:761][686]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:21:58 AM)
+[2016.01.31-17.21.58:761][686]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.21.58:781][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019829s)
+[2016.01.31-17.21.58:782][686]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.21.58:782][686]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2016.01.31-17.21.58:782][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.021208s)
+[2016.01.31-17.21.58:810][686]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.21.58:817][686]LogInit: FAudioDevice initialized.
+[2016.01.31-17.21.58:848][686]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.21.58:851][686]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.21.58
+[2016.01.31-17.21.58:851][686]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.21.58:851][686]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.21.58:852][686]LogWorld: Bringing up level for play took: 0.003452
+[2016.01.31-17.21.58:852][686]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_3's PathFollowingComponent
+[2016.01.31-17.21.58:852][686]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.21.58:854][686]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 1.057
+[2016.01.31-17.22.00:812][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000567D7CE0
+[2016.01.31-17.22.02:305][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.22.02:305][ 84]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:22:02 AM)
+[2016.01.31-17.22.02:305][ 84]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.22.02:324][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018891s)
+[2016.01.31-17.22.02:326][ 84]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.22.02:326][ 84]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2016.01.31-17.22.02:326][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020456s)
+[2016.01.31-17.22.02:353][ 84]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.22.02:361][ 84]LogInit: FAudioDevice initialized.
+[2016.01.31-17.22.02:393][ 84]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.22.02:401][ 84]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.22.02
+[2016.01.31-17.22.02:401][ 84]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.22.02:401][ 84]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.22.02:402][ 84]LogWorld: Bringing up level for play took: 0.007204
+[2016.01.31-17.22.02:402][ 84]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_4's PathFollowingComponent
+[2016.01.31-17.22.02:403][ 84]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.22.02:405][ 84]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.609
+[2016.01.31-17.22.04:653][349]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.04:653][349]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.04:912][380]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.04:912][380]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.06:676][592]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.06:676][592]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.06:868][615]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.06:868][615]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.07:043][636]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.07:043][636]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.07:209][656]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.07:209][656]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.07:368][675]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_52
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.22.07:368][675]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.22.08:264][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006F543060
+[2016.01.31-17.22.18:402][731]LogRenderer: Reallocating scene render targets to support 1312x712 (Frame:33482).
+[2016.01.31-17.23.24:112][331]BlueprintLog: New page: Compile Enemy
+[2016.01.31-17.23.24:177][331]BlueprintEditorCompileResults: Info [0409.93] Compile of Enemy successful! [in 64 ms]
+[2016.01.31-17.23.24:941][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Enemy" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset" SILENT=true
+[2016.01.31-17.23.24:978][418]LogSavePackage: Save=24.627382ms
+[2016.01.31-17.23.24:978][418]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Enemy563401734C1921BD9F3710A6C4BE1704.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset'
+[2016.01.31-17.23.24:981][418]LogSavePackage: Total save time: 36.702786ms
+[2016.01.31-17.23.24:981][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/Enemy.uasset
+[2016.01.31-17.23.26:496][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.23.26:496][598]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:23:26 AM)
+[2016.01.31-17.23.26:497][598]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.23.26:516][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019485s)
+[2016.01.31-17.23.26:517][598]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.23.26:517][598]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2016.01.31-17.23.26:518][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020966s)
+[2016.01.31-17.23.26:548][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.23.26:555][598]LogInit: FAudioDevice initialized.
+[2016.01.31-17.23.26:595][598]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.23.26:604][598]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.23.26
+[2016.01.31-17.23.26:604][598]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.26:604][598]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.26:604][598]LogWorld: Bringing up level for play took: 0.007359
+[2016.01.31-17.23.26:604][598]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_5's PathFollowingComponent
+[2016.01.31-17.23.26:605][598]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.23.26:606][598]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.81
+[2016.01.31-17.23.28:067][770]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.28:067][770]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.28:642][839]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.28:642][839]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.28:833][862]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.28:833][862]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:017][884]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:017][884]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:184][904]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:184][904]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:184][904]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-893.821 Y=85.868 Z=391.759] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.29:367][926]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:367][926]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:367][926]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-924.038 Y=123.758 Z=406.632] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.29:550][948]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:550][948]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:550][948]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-940.541 Y=143.370 Z=409.773] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.29:733][970]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:733][970]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:734][970]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-975.642 Y=183.053 Z=436.183] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.29:917][992]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.29:917][992]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.29:917][992]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-985.208 Y=201.364 Z=416.101] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.30:109][ 15]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.30:109][ 15]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.30:109][ 15]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1003.473 Y=223.462 Z=425.372] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.30:292][ 37]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.30:292][ 37]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.30:292][ 37]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1009.625 Y=228.572 Z=433.523] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.30:467][ 58]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.30:467][ 58]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.30:467][ 58]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1016.358 Y=234.526 Z=434.999] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.30:692][ 85]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.30:692][ 85]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.30:692][ 85]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1021.313 Y=234.005 Z=439.581] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.30:858][105]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.30:858][105]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.30:859][105]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1006.628 Y=226.523 Z=429.828] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.31:050][128]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.31:050][128]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.31:050][128]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1000.855 Y=221.881 Z=421.447] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.31:283][156]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.31:283][156]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.31:284][156]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1006.811 Y=226.818 Z=436.240] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.31:525][185]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_53
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.31:525][185]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.31:526][185]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1019.957 Y=317.967 Z=397.287] for [FirstPersonProjectile_C]
+[2016.01.31-17.23.32:400][290]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.32:565][310]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.32:967][358]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.34:924][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009EDE71A0
+[2016.01.31-17.23.36:011][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.23.36:011][690]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:23:36 AM)
+[2016.01.31-17.23.36:011][690]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.23.36:030][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019058s)
+[2016.01.31-17.23.36:031][690]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.23.36:032][690]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2016.01.31-17.23.36:032][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020562s)
+[2016.01.31-17.23.36:061][690]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.23.36:068][690]LogInit: FAudioDevice initialized.
+[2016.01.31-17.23.36:096][690]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.23.36:100][690]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.23.36
+[2016.01.31-17.23.36:100][690]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.36:100][690]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.36:101][690]LogWorld: Bringing up level for play took: 0.003773
+[2016.01.31-17.23.36:101][690]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_6's PathFollowingComponent
+[2016.01.31-17.23.36:101][690]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.23.36:103][690]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel 0.308
+[2016.01.31-17.23.46:105][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057A1C680
+[2016.01.31-17.23.47:201][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-17.23.47:201][  8]PIE: New page: PIE session: BondsLevel (Jan 31, 2016, 7:23:47 AM)
+[2016.01.31-17.23.47:201][  8]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel
+[2016.01.31-17.23.47:220][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019005s)
+[2016.01.31-17.23.47:221][  8]LogAIModule: Creating AISystem for world BondsLevel
+[2016.01.31-17.23.47:222][  8]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2016.01.31-17.23.47:222][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Level/BondsLevel.BondsLevel to /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel (0.020408s)
+[2016.01.31-17.23.47:252][  8]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-17.23.47:259][  8]LogInit: FAudioDevice initialized.
+[2016.01.31-17.23.47:292][  8]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-17.23.47:295][  8]LogWorld: Bringing World /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel up for play (max tick rate 0) at 2016.01.31-12.23.47
+[2016.01.31-17.23.47:295][  8]LogActor:Warning: GameSession /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.47:296][  8]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-17.23.47:296][  8]LogWorld: Bringing up level for play took: 0.003333
+[2016.01.31-17.23.47:296][  8]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_7's PathFollowingComponent
+[2016.01.31-17.23.47:296][  8]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.01.31-17.23.47:297][  8]PIE: Info Play in editor start time for /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel -0.498
+[2016.01.31-17.23.48:997][209]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_55
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.48:997][209]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.50:389][376]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_55
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.50:389][376]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.50:914][439]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_55
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.50:914][439]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.51:430][501]LogScript:Warning: Accessed None 'CallFunc_GetAnimInstance_ReturnValue'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Level/UEDPIE_0_BondsLevel.BondsLevel:PersistentLevel.FirstPersonCharacter_C_55
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:089C
+[2016.01.31-17.23.51:430][501]PIE:Error: Error Accessed None 'CallFunc_GetAnimInstance_ReturnValue' from node Montage Play in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2016.01.31-17.23.52:996][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049F38540
+[2016.01.31-17.23.59:347][385]LogSavePackage: Save=41.244015ms
+[2016.01.31-17.23.59:347][385]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BondsLevel44CFD3914D143461E51289B0A5C32DAF.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap'
+[2016.01.31-17.23.59:351][385]LogSavePackage: Total save time: 59.998214ms
+[2016.01.31-17.23.59:351][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Level/BondsLevel.umap
+[2016.01.31-17.24.00:664][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.31-17.24.01:063][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.31-17.24.02:071][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000084EF8AE0
+[2016.01.31-17.24.02:072][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000176D65C0
+[2016.01.31-17.24.02:073][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF93240
+[2016.01.31-17.24.02:074][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000444AC900
+[2016.01.31-17.24.02:075][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000068899DA0
+[2016.01.31-17.24.02:076][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000079CB5E40
+[2016.01.31-17.24.02:076][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008020DDA0
+[2016.01.31-17.24.03:838][685]LogSavePackage: Save=3.508161ms
+[2016.01.31-17.24.03:838][685]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/SceneCapture2D1_BlueprintE5CDC97544934E64FE3CA09D3D3F833A.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.uasset'
+[2016.01.31-17.24.03:841][685]LogSavePackage: Total save time: 6.590977ms
+[2016.01.31-17.24.03:841][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SceneCapture2D1_Blueprint.uasset
+[2016.01.31-17.24.04:099][686]Cmd: QUIT_EDITOR
+[2016.01.31-17.24.04:265][686]LogExit: Preparing to exit.
+[2016.01.31-17.24.05:045][686]LogExit: Editor shut down
+[2016.01.31-17.24.05:045][686]LogExit: Transaction tracking system shut down
+[2016.01.31-17.24.05:048][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001254F9C0
+[2016.01.31-17.24.05:048][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000330C3880
+[2016.01.31-17.24.05:048][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012666B60
+[2016.01.31-17.24.05:048][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000337D6E80
+[2016.01.31-17.24.05:049][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015645BC0
+[2016.01.31-17.24.05:184][686]LogExit: Object subsystem successfully closed.
+[2016.01.31-17.24.05:195][686]LogD3D11RHI: Shutdown
+[2016.01.31-17.24.05:195][686]LogD3D11RHI: CleanupD3DDevice
+[2016.01.31-17.24.05:196][686]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (201)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.31-17.24.05:269][686]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.31-17.24.05:270][686]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.31-17.24.05:271][686]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.31-17.24.05:271][686]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.31-17.24.05:775][686]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.31-17.24.05:776][686]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.31-17.24.05:777][686]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.31-17.24.05:778][686]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.31-17.24.05:781][686]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.31-17.24.05:781][686]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.31-17.24.05:781][686]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.31-17.24.05:782][686]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.31-17.24.05:917][686]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.31-17.24.05:918][686]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.31-17.24.05:946][686]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.31-17.24.05:946][686]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.31-17.24.05:946][686]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.31-17.24.05:946][686]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.31-17.24.05:947][686]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.31-17.24.05:948][686]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.31-17.24.05:948][686]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.31-17.24.05:950][686]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.31-17.24.05:952][686]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.31-17.24.06:076][686]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.31-17.24.06:076][686]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.31-17.24.06:076][686]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.31-17.24.06:176][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.31-17.24.06:176][686]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.31-17.24.06:176][686]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.31-17.24.06:184][686]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.31-17.24.06:184][686]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.31-17.24.06:185][686]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.31-17.24.06:185][686]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.31-17.24.06:186][686]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.31-17.24.06:193][686]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.31-17.24.06:193][686]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.31-17.24.06:194][686]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.31-17.24.06:288][686]LogDerivedDataCache: Shutdown
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.31-17.24.06:288][686]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.31-17.24.08:289][686]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.31-17.24.08:293][686]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.31-17.24.08:297][686]LogExit: Exiting.
+[2016.01.31-17.24.08:300][686]Log file closed, 01/31/16 12:24:08
