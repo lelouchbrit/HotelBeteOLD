@@ -1,0 +1,762 @@
+﻿[2016.02.09-22.23.46:946][  0]Log file open, 02/09/16 17:23:46
+[2016.02.09-22.23.46:946][  0]LogInit:Display: Running engine for game: HotelBete
+[2016.02.09-22.23.46:946][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.09-22.23.46:946][  0]LogInit:Display: RandInit(682496897) SRandInit(682496899).
+[2016.02.09-22.23.46:946][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.09-22.23.46:946][  0]LogStats: Stats thread started at 0.072618
+[2016.02.09-22.23.46:946][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.09-22.23.46:946][  0]LogInit: API Version: 2758231
+[2016.02.09-22.23.46:946][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.09-22.23.46:946][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.09-22.23.46:946][  0]LogInit: Build Configuration: Development
+[2016.02.09-22.23.46:946][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.09-22.23.46:946][  0]LogInit: Command line:  
+[2016.02.09-22.23.46:946][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.09-22.23.46:946][  0]LogInit: Rocket: 1
+[2016.02.09-22.23.46:953][  0]LogInit: Using libcurl 7.41.0
+[2016.02.09-22.23.46:953][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.09-22.23.46:953][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.09-22.23.46:953][  0]LogInit:  - other features:
+[2016.02.09-22.23.46:953][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.09-22.23.46:953][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.09-22.23.46:953][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.09-22.23.46:953][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.09-22.23.46:953][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.09-22.23.46:953][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.09-22.23.46:953][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.09-22.23.46:953][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.09-22.23.46:953][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.09-22.23.46:953][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.09-22.23.46:960][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.09-22.23.46:965][  0]LogInit: Object subsystem initialized
+[2016.02.09-22.23.46:966][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.09-22.23.46:966][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.09-22.23.46:973][  0]LogInit: Computer: MRRBOND-PC
+[2016.02.09-22.23.46:973][  0]LogInit: User: MrrBond
+[2016.02.09-22.23.46:973][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.09-22.23.46:973][  0]LogInit: High frequency timer resolution =3.416025 MHz
+[2016.02.09-22.23.46:973][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.09-22.23.46:973][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.09-22.23.46:973][  0]LogMemory: Process Physical Memory: 57.22 MB used, 57.22 MB peak
+[2016.02.09-22.23.46:973][  0]LogMemory: Process Virtual Memory: 60.55 MB used, 60.55 MB peak
+[2016.02.09-22.23.46:973][  0]LogMemory: Physical Memory: 3125.21 MB used, 8134.93 MB total
+[2016.02.09-22.23.46:973][  0]LogMemory: Virtual Memory: 354.33 MB used, 8388608.00 MB total
+[2016.02.09-22.23.47:010][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.09-22.23.47:364][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2016.02.09-22.23.47:364][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.02.09-22.23.47:364][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.09-22.23.47:368][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.09-22.23.47:369][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.09-22.23.47:378][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.09-22.23.47:391][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/5660/).
+[2016.02.09-22.23.47:391][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MrrBond/AppData/Local/Temp/UnrealShaderWorkingDir/E3803C8D47087448AD4C998B7F8C4F19/'.
+[2016.02.09-22.23.47:391][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.09-22.23.48:030][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.09-22.23.48:034][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.09-22.23.48:038][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.09-22.23.48:041][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.09-22.23.48:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.09-22.23.48:047][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.09-22.23.48:050][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.09-22.23.48:052][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.09-22.23.48:054][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.09-22.23.48:057][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.09-22.23.48:059][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.09-22.23.48:064][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.09-22.23.48:064][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.09-22.23.48:065][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.09-22.23.48:081][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.09-22.23.48:083][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.09-22.23.48:086][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.09-22.23.48:088][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.09-22.23.48:088][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.09-22.23.48:161][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.09-22.23.48:202][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.09-22.23.48:247][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.09-22.23.48:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MrrBond/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.09-22.23.48:400][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.09-22.23.48:401][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.09-22.23.48:433][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.09-22.23.48:434][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.09-22.23.48:703][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.09-22.23.49:396][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.02.09-22.23.49:410][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.09-22.23.49:631][  0]SourceControl: Info Source control is disabled
+[2016.02.09-22.23.49:632][  0]SourceControl: Info Source control is disabled
+[2016.02.09-22.23.49:643][  0]SourceControl: Info Source control is disabled
+[2016.02.09-22.23.49:655][  0]SourceControl: Info Source control is disabled
+[2016.02.09-22.23.49:888][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.02.09-22.23.49:888][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.02.09-22.23.49:938][  0]LogEngine: Initializing Engine...
+[2016.02.09-22.23.49:939][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.09-22.23.49:940][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.09-22.23.50:046][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.09-22.23.50:052][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.23.50:080][  0]LogInit: FAudioDevice initialized.
+[2016.02.09-22.23.50:106][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.09-22.23.50:111][  0]LogInit: Texture streaming: Enabled
+[2016.02.09-22.23.50:116][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.09-22.23.50:117][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.09-22.23.50:117][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 70d505b9489753c526a513886a8eb1a2|20388df98dc841109316ca5aa4c25788|5df8a1b8-928f-4cc0-8ccd-f95831ba8036
+[2016.02.09-22.23.50:117][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.09-22.23.50:139][  0]LogInit: Transaction tracking system initialized
+[2016.02.09-22.23.50:164][  0]BlueprintLog: New page: Editor Load
+[2016.02.09-22.23.50:237][  0]LocalizationService: Info Localization service is disabled
+[2016.02.09-22.23.50:304][  0]LogConsoleResponse:Display: 
+[2016.02.09-22.23.50:401][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.09-22.23.50:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/' took 0.02s
+[2016.02.09-22.23.50:454][  0]SourceControl: Info Source control is disabled
+[2016.02.09-22.23.50:454][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.09-22.23.50:455][  0]LightingResults: New page: Lighting Build
+[2016.02.09-22.23.50:457][  0]MapCheck: New page: Map Check
+[2016.02.09-22.23.50:457][  0]LightingResults: New page: Lighting Build
+[2016.02.09-22.23.50:467][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023C22AC0
+[2016.02.09-22.23.50:513][  0]LogAIModule: Creating AISystem for world Menu
+[2016.02.09-22.23.50:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.09-22.23.50:514][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.09-22.23.50:558][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.293ms to complete.
+[2016.02.09-22.23.50:558][  0]LogFileHelpers: Loading map 'Menu' took 0.104
+[2016.02.09-22.23.50:651][  0]LogCollectionManager: Loaded 0 collections in 0.002639 seconds
+[2016.02.09-22.23.50:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.02.09-22.23.50:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Developers/MrrBond/Collections/' took 0.01s
+[2016.02.09-22.23.50:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.02.09-22.23.50:690][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.09-22.23.50:696][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1908 classes and 344 folders.
+[2016.02.09-22.23.50:703][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.09-22.23.50:751][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.09-22.23.50:755][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.09-22.23.50:771][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.09-22.23.50:773][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.09-22.23.50:794][  0]LogLoad: Full Startup: 4.22 seconds (BP compile: 0.02 seconds)
+[2016.02.09-22.23.50:804][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.09-22.23.50:838][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.09-22.23.50:957][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.09-22.23.51:062][  2]LogAssetRegistry: Asset discovery search completed in 1.6765 seconds
+[2016.02.09-22.23.51:062][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.09-22.23.51:062][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.02.09-22.23.53:448][206]LogLinker:Warning: Asset '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.09-22.23.54:144][206]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.09-22.23.54:544][206]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.02.09-22.24.17:318][ 79]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.24.17:319][ 79]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit2.P_Steam_Lit2 Component=/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.P_Steam_Lit2_2.ParticleSystemComponent0
+[2016.02.09-22.24.17:390][ 79]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.09-22.24.17:390][ 79]LightingResults: New page: Lighting Build
+[2016.02.09-22.24.17:406][ 79]LoadErrors: New page: Loading map: Prototype.umap
+[2016.02.09-22.24.17:406][ 79]MapCheck: New page: Map Check
+[2016.02.09-22.24.17:406][ 79]LightingResults: New page: Lighting Build
+[2016.02.09-22.24.17:428][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FFF1080
+[2016.02.09-22.24.17:441][ 79]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.09-22.24.17:471][ 79]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.09-22.24.17:536][ 79]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.755ms to complete.
+[2016.02.09-22.24.17:537][ 79]LogFileHelpers: Loading map 'Prototype' took 0.147
+[2016.02.09-22.24.51:021][915]BlueprintLog: New page: Compile Player
+[2016.02.09-22.24.51:341][915]BlueprintEditorCompileResults: Info [0064.76] Compile of Player successful! [in 319 ms]
+[2016.02.09-22.25.19:695][192]BlueprintLog: New page: Compile TriggerSpook
+[2016.02.09-22.25.19:780][192]BlueprintEditorCompileResults: Info [0093.20] Compile of TriggerSpook successful! [in 84 ms]
+[2016.02.09-22.25.22:675][514]LogSavePackage: Save=33.106022ms
+[2016.02.09-22.25.22:675][514]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/TriggerSpook6A5BC0854A5C32DCC22A44977D2A1509.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset'
+[2016.02.09-22.25.22:680][514]LogSavePackage: Total save time: 52.706290ms
+[2016.02.09-22.25.22:680][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset
+[2016.02.09-22.25.24:426][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/player" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset" SILENT=true
+[2016.02.09-22.25.24:751][711]LogSavePackage: Save=313.468445ms
+[2016.02.09-22.25.24:751][711]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/player8474EF744C8936E42E2832A1CFAAEC76.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset'
+[2016.02.09-22.25.24:755][711]LogSavePackage: Total save time: 324.760798ms
+[2016.02.09-22.25.24:755][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset
+[2016.02.09-22.26.30:027][587]BlueprintLog: New page: Compile TriggerSpook
+[2016.02.09-22.26.30:124][587]BlueprintEditorCompileResults: Info [0163.55] Compile of TriggerSpook successful! [in 96 ms]
+[2016.02.09-22.26.31:304][712]LogSavePackage: Save=39.901932ms
+[2016.02.09-22.26.31:304][712]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/TriggerSpook22FF3EAC429728E54FB08DA71666B6F8.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset'
+[2016.02.09-22.26.31:308][712]LogSavePackage: Total save time: 49.696941ms
+[2016.02.09-22.26.31:308][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset
+[2016.02.09-22.26.45:826][360]LogSavePackage: Save=48.232960ms
+[2016.02.09-22.26.45:826][360]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/SpookyObject8784A1FD4F909D9080E1ED866E760C06.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset'
+[2016.02.09-22.26.45:830][360]LogSavePackage: Total save time: 62.018573ms
+[2016.02.09-22.26.45:830][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset
+[2016.02.09-22.26.46:444][431]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.26.46:555][431]BlueprintEditorCompileResults: Info [0179.98] Compile of SpookyObject successful! [in 111 ms]
+[2016.02.09-22.26.48:433][636]LogSavePackage: Save=54.791462ms
+[2016.02.09-22.26.48:433][636]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/SpookyObject2FC8484844AB4DE55E7AB98857F03F7B.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset'
+[2016.02.09-22.26.48:435][636]LogSavePackage: Total save time: 63.627463ms
+[2016.02.09-22.26.48:435][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset
+[2016.02.09-22.26.57:988][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.26.57:988][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.26.57:989][709]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:26:57 PM)
+[2016.02.09-22.26.57:989][709]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.26.58:034][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044750s)
+[2016.02.09-22.26.58:036][709]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.26.58:036][709]LogPlayLevel: PIE: World Init took: (0.001989s)
+[2016.02.09-22.26.58:037][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.047360s)
+[2016.02.09-22.26.58:097][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.26.58:110][709]LogInit: FAudioDevice initialized.
+[2016.02.09-22.26.58:336][709]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.26.58:343][709]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.26.58
+[2016.02.09-22.26.58:344][709]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.26.58:344][709]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.26.58:344][709]LogWorld: Bringing up level for play took: 0.006640
+[2016.02.09-22.26.58:345][709]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.26.58:371][709]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype -0.548
+[2016.02.09-22.26.58:371][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.26.58:398][710]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:1908).
+[2016.02.09-22.27.07:182][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.27.07:241][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.27.07:324][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007ED11C0
+[2016.02.09-22.28.09:041][623]BlueprintLog: New page: Compile Player
+[2016.02.09-22.28.09:152][623]LogBlueprint:Error: [compiler Player] Error This blueprint (self) is not a SpookyObject_C, therefore ' Target ' must have a connection.
+[2016.02.09-22.28.09:577][623]LogBlueprint:Warning: [compiler Player] Warning [0263.00] Compile of Player failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms]
+[2016.02.09-22.28.09:577][623]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SpookyObject_C, therefore ' Target ' must have a connection.
+[2016.02.09-22.28.09:577][623]BlueprintEditorCompileResults:Warning: Warning [0263.00] Compile of Player failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms]
+[2016.02.09-22.29.10:384][624]LogEditorTransaction: Undo Add Node
+[2016.02.09-22.31.26:513][204]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.31.26:737][228]LogEditorTransaction: Undo Move Node
+[2016.02.09-22.31.27:259][271]LogEditorTransaction: Undo Add Node
+[2016.02.09-22.33.21:679][531]BlueprintLog: New page: Compile Player
+[2016.02.09-22.33.22:178][531]BlueprintEditorCompileResults: Info [0575.60] Compile of Player successful! [in 498 ms]
+[2016.02.09-22.33.44:180][725]LogSavePackage: Save=1616.165039ms
+[2016.02.09-22.33.44:180][725]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Prototype8776C6E1417A9192F034919CB830CD2D.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Prototype.umap'
+[2016.02.09-22.33.44:188][725]LogSavePackage: Total save time: 1655.914113ms
+[2016.02.09-22.33.44:188][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Prototype.umap
+[2016.02.09-22.33.44:234][725]LogFileHelpers: Saving map 'Prototype' took 1.896
+[2016.02.09-22.33.44:243][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/player" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset" SILENT=true
+[2016.02.09-22.33.44:636][725]LogSavePackage: Save=376.189575ms
+[2016.02.09-22.33.44:636][725]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/playerB3323F504654BFEA3159E7B02F514581.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset'
+[2016.02.09-22.33.44:645][725]LogSavePackage: Total save time: 397.756457ms
+[2016.02.09-22.33.44:645][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset
+[2016.02.09-22.33.45:233][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.33.45:233][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.33.45:233][767]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:33:45 PM)
+[2016.02.09-22.33.45:233][767]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.33.45:272][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038996s)
+[2016.02.09-22.33.45:275][767]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.33.45:276][767]LogPlayLevel: PIE: World Init took: (0.003798s)
+[2016.02.09-22.33.45:277][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.043582s)
+[2016.02.09-22.33.45:349][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.33.45:363][767]LogInit: FAudioDevice initialized.
+[2016.02.09-22.33.45:453][767]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.33.45:463][767]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.33.45
+[2016.02.09-22.33.45:463][767]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.33.45:463][767]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.33.45:463][767]LogWorld: Bringing up level for play took: 0.008801
+[2016.02.09-22.33.45:464][767]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.33.45:494][767]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype 0.571
+[2016.02.09-22.33.45:494][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.34.04:723][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.34.04:786][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.34.04:830][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005DE26700
+[2016.02.09-22.34.50:658][562]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.34.50:772][562]BlueprintEditorCompileResults: Info [0664.19] Compile of SpookyObject successful! [in 113 ms]
+[2016.02.09-22.35.12:150][990]BlueprintLog: New page: Compile Player
+[2016.02.09-22.35.12:479][990]LogBlueprint:Error: [compiler TriggerSpook] Error Could not find a function named "SpookyStuff" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Spooky Stuff 
+[2016.02.09-22.35.12:731][990]BlueprintEditorCompileResults: Info [0686.15] Compile of Player successful! [in 581 ms]
+[2016.02.09-22.35.22:324][ 65]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.35.22:429][ 65]BlueprintEditorCompileResults: Info [0695.85] Compile of SpookyObject successful! [in 104 ms]
+[2016.02.09-22.35.23:697][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.35.23:697][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.35.40:630][763]BlueprintLog: New page: Compile TriggerSpook
+[2016.02.09-22.35.40:730][763]BlueprintEditorCompileResults: Info [0714.15] Compile of TriggerSpook successful! [in 99 ms]
+[2016.02.09-22.35.42:065][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.35.42:065][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.35.42:065][894]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:35:42 PM)
+[2016.02.09-22.35.42:065][894]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.35.42:100][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034923s)
+[2016.02.09-22.35.42:102][894]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.35.42:102][894]LogPlayLevel: PIE: World Init took: (0.002042s)
+[2016.02.09-22.35.42:103][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.037547s)
+[2016.02.09-22.35.42:159][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.35.42:171][894]LogInit: FAudioDevice initialized.
+[2016.02.09-22.35.42:262][894]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.35.42:266][894]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.35.42
+[2016.02.09-22.35.42:266][894]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.35.42:266][894]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.35.42:267][894]LogWorld: Bringing up level for play took: 0.004033
+[2016.02.09-22.35.42:270][894]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.35.42:308][894]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype -0.613
+[2016.02.09-22.35.42:308][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.35.50:862][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.35.50:926][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.35.50:966][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000303D6200
+[2016.02.09-22.36.47:313][105]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.36.47:416][105]BlueprintEditorCompileResults: Info [0780.84] Compile of SpookyObject successful! [in 103 ms]
+[2016.02.09-22.36.53:356][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.36.53:357][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.36.53:357][776]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:36:53 PM)
+[2016.02.09-22.36.53:357][776]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.36.53:396][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038260s)
+[2016.02.09-22.36.53:397][776]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.36.53:397][776]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2016.02.09-22.36.53:397][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.039914s)
+[2016.02.09-22.36.53:465][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.36.53:478][776]LogInit: FAudioDevice initialized.
+[2016.02.09-22.36.53:561][776]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.36.53:565][776]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.36.53
+[2016.02.09-22.36.53:565][776]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.36.53:566][776]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.36.53:566][776]LogWorld: Bringing up level for play took: 0.003761
+[2016.02.09-22.36.53:567][776]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.36.53:611][776]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype 0.692
+[2016.02.09-22.36.53:612][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.36.58:099][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.36.58:160][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.36.58:236][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014FBAE80
+[2016.02.09-22.37.33:031][132]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.37.33:146][132]BlueprintEditorCompileResults: Info [0826.57] Compile of SpookyObject successful! [in 115 ms]
+[2016.02.09-22.38.17:228][202]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.38.17:301][202]BlueprintEditorCompileResults: Info [0870.72] Compile of SpookyObject successful! [in 73 ms]
+[2016.02.09-22.38.20:575][593]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.20:575][593]LogEditorTransaction: Undo Remove Parameter
+[2016.02.09-22.38.20:951][624]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.20:951][624]LogEditorTransaction: Undo Change Paramater Type
+[2016.02.09-22.38.21:356][662]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.21:356][662]LogEditorTransaction: Undo Add In Parameter
+[2016.02.09-22.38.21:635][692]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.21:635][692]LogEditorTransaction: Undo Remove Parameter
+[2016.02.09-22.38.21:906][722]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.21:906][722]LogEditorTransaction: Undo Remove Parameter
+[2016.02.09-22.38.22:132][746]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.22:132][746]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.22:360][773]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.22:360][773]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.22:645][805]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.22:645][805]LogEditorTransaction: Undo Add In Parameter
+[2016.02.09-22.38.22:906][832]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.22:906][832]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.23:147][860]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.23:147][860]LogEditorTransaction: Undo Rename Parameter
+[2016.02.09-22.38.23:463][895]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.23:463][895]LogEditorTransaction: Undo Change Paramater Type
+[2016.02.09-22.38.23:697][920]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.23:697][920]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.23:977][953]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.23:977][953]LogEditorTransaction: Undo Add In Parameter
+[2016.02.09-22.38.24:230][980]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.24:230][980]LogEditorTransaction: Undo Move Node
+[2016.02.09-22.38.24:528][ 15]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.24:528][ 15]LogEditorTransaction: Undo Move Nodes
+[2016.02.09-22.38.24:780][ 44]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.24:780][ 44]LogEditorTransaction: Undo Move Nodes
+[2016.02.09-22.38.25:013][ 70]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.25:013][ 70]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.25:279][ 99]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.25:279][ 99]LogEditorTransaction: Undo Delete current selection
+[2016.02.09-22.38.25:530][128]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.25:530][128]LogEditorTransaction: Undo Rename Node
+[2016.02.09-22.38.25:781][156]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.25:781][156]LogEditorTransaction: Undo Rename Node
+[2016.02.09-22.38.26:030][183]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.26:031][183]LogEditorTransaction: Undo Remove Graph
+[2016.02.09-22.38.26:322][210]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.26:322][210]LogEditorTransaction: Undo Remove Graph
+[2016.02.09-22.38.26:579][238]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.26:579][238]LogEditorTransaction: Undo Rename Node
+[2016.02.09-22.38.26:849][267]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.26:849][267]LogEditorTransaction: Undo Move Node
+[2016.02.09-22.38.27:205][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.27:205][305]LogEditorTransaction: Undo Create Pin Link
+[2016.02.09-22.38.31:800][305]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 157]
+UEdGraphPin::BreakLinkTo Pin 'then' on node 'CustomEvent_0' not reciprocally linked with pin 'execute' on node 'Cast To Player'
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:157]
+UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:172]
+UE4Editor-Engine.dll!UEdGraphNode::BreakAllNodeLinks() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:144]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::PruneIsolatedNodes() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:1064]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::PrecompileFunction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:1155]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::Compile() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:3195]
+UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprintInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:99]
+UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:160]
+UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:2187]
+UE4Editor-Kismet.dll!FBlueprintEditor::PostUndo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismet\private\blueprinteditor.cpp:2828]
+UE4Editor-UnrealEd.dll!UEditorEngine::BroadcastPostUndo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorserver.cpp:4998]
+UE4Editor-UnrealEd.dll!UEditorEngine::HandleTransactorUndo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorserver.cpp:1101]
+UE4Editor-UnrealEd.dll!TBaseUObjectMethodDelegateInstance<0,UEditorEngine,TTypeWrapper<void> __cdecl(FUndoSessionContext,bool)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:681]
+UE4Editor-UnrealEd.dll!TBaseUObjectMethodDelegateInstance<0,UEditorEngine,void __cdecl(FUndoSessionContext,bool)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:770]
+UE4Editor-UnrealEd.dll!TBaseMulticastDelegate<void,FUndoSessionContext,bool>::Broadcast() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:809]
+UE4Editor-UnrealEd.dll!UTransBuffer::Undo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editortransaction.cpp:720]
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Transaction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorserver.cpp:4993]
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorserver.cpp:5439]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\unrealedsrv.cpp:743]
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::ExecuteExecCommand() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\mainframe\private\frame\mainframeactions.cpp:890]
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<void __cdecl(void),FString>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:921]
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:206]
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:150]
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\mainframe\private\frame\mainframeactions.cpp:174]
+UE4Editor-MainFrame.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,FReply (__cdecl*const & __ptr64)(FKeyEvent const & __ptr64),FKeyEvent const & __ptr64>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<FReply __cdecl(FKeyEvent const & __ptr64)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:853]
+UE4Editor-Slate.dll!TBaseDelegate<FReply,FKeyEvent const & __ptr64>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:440]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3931]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3845]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1272]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1721]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:719]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:641]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2391]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+
+[2016.02.09-22.38.32:243][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.32:243][305]LogEditorTransaction: Undo Move Node
+[2016.02.09-22.38.32:250][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.32:250][305]LogEditorTransaction: Undo Delete current selection
+[2016.02.09-22.38.32:260][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.32:260][305]LogEditorTransaction: Undo Move Node
+[2016.02.09-22.38.32:266][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.32:266][305]LogEditorTransaction: Undo Rename Node
+[2016.02.09-22.38.32:276][305]Cmd: TRANSACTION UNDO
+[2016.02.09-22.38.32:276][305]LogEditorTransaction: Undo Add Node
+[2016.02.09-22.38.42:783][500]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.38.42:934][500]BlueprintEditorCompileResults: Info [0896.35] Compile of SpookyObject successful! [in 150 ms]
+[2016.02.09-22.38.44:097][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.38.44:097][616]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.09-22.38.44:104][616]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.02.09-22.38.44:201][616]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/FirstPersonBP/Blueprints/SpookyObject.SpookyObject:EventGraph.K2Node_DynamicCast_606 keeps removed/invalid pin: EdGraphPin /Game/FirstPersonBP/Blueprints/SpookyObject.SpookyObject:EventGraph.K2Node_DynamicCast_606.EdGraphPin_38115. Try refresh all nodes.
+[2016.02.09-22.38.44:427][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 329 ms (10 blueprints)
+[2016.02.09-22.38.44:430][616]LogPlayLevel: [PlayLevel] Compiling TriggerSpook before play...
+[2016.02.09-22.38.44:479][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 381 ms (10 blueprints)
+[2016.02.09-22.38.44:481][616]LogPlayLevel: [PlayLevel] Compiling SpookVision before play...
+[2016.02.09-22.38.44:545][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 447 ms (10 blueprints)
+[2016.02.09-22.38.44:548][616]LogPlayLevel: [PlayLevel] Compiling SpookyObject before play...
+[2016.02.09-22.38.44:605][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 508 ms (10 blueprints)
+[2016.02.09-22.38.44:606][616]LogPlayLevel: [PlayLevel] Compiling Door before play...
+[2016.02.09-22.38.44:657][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 560 ms (10 blueprints)
+[2016.02.09-22.38.44:658][616]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2016.02.09-22.38.44:723][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 625 ms (10 blueprints)
+[2016.02.09-22.38.44:723][616]LogPlayLevel: [PlayLevel] Compiling TriggerA before play...
+[2016.02.09-22.38.44:772][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 674 ms (10 blueprints)
+[2016.02.09-22.38.44:773][616]LogPlayLevel: [PlayLevel] Compiling InvItemPic before play...
+[2016.02.09-22.38.44:830][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 732 ms (10 blueprints)
+[2016.02.09-22.38.44:830][616]LogPlayLevel: [PlayLevel] Compiling InventoryWidget before play...
+[2016.02.09-22.38.44:894][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 796 ms (10 blueprints)
+[2016.02.09-22.38.44:894][616]LogPlayLevel: [PlayLevel] Compiling GameOver before play...
+[2016.02.09-22.38.44:962][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 864 ms (10 blueprints)
+[2016.02.09-22.38.45:013][616]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:38:45 PM)
+[2016.02.09-22.38.45:013][616]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.38.45:039][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026123s)
+[2016.02.09-22.38.45:040][616]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.38.45:040][616]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2016.02.09-22.38.45:040][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.027529s)
+[2016.02.09-22.38.45:083][616]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.38.45:091][616]LogInit: FAudioDevice initialized.
+[2016.02.09-22.38.45:171][616]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.38.45:177][616]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.38.45
+[2016.02.09-22.38.45:177][616]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.38.45:177][616]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.38.45:177][616]LogWorld: Bringing up level for play took: 0.004963
+[2016.02.09-22.38.45:178][616]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.38.45:209][616]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype 0.288
+[2016.02.09-22.38.45:209][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.38.49:815][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.38.49:876][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.38.49:928][ 48]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003548EFC0
+[2016.02.09-22.39.00:156][205]BlueprintLog: New page: Compile SpookyObject
+[2016.02.09-22.39.00:236][205]BlueprintEditorCompileResults: Info [0913.65] Compile of SpookyObject successful! [in 80 ms]
+[2016.02.09-22.39.01:331][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.39.01:331][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.09-22.39.01:331][324]PIE: New page: PIE session: Prototype (Feb 9, 2016, 12:39:01 PM)
+[2016.02.09-22.39.01:332][324]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_Prototype
+[2016.02.09-22.39.01:360][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028302s)
+[2016.02.09-22.39.01:361][324]LogAIModule: Creating AISystem for world Prototype
+[2016.02.09-22.39.01:361][324]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2016.02.09-22.39.01:361][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/Prototype.Prototype to /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype (0.029683s)
+[2016.02.09-22.39.01:414][324]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.09-22.39.01:427][324]LogInit: FAudioDevice initialized.
+[2016.02.09-22.39.01:496][324]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.02.09-22.39.01:508][324]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2016.02.09-17.39.01
+[2016.02.09-22.39.01:508][324]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.39.01:508][324]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.09-22.39.01:509][324]LogWorld: Bringing up level for play took: 0.012052
+[2016.02.09-22.39.01:511][324]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.02.09-22.39.01:551][324]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_Prototype 0.629
+[2016.02.09-22.39.01:551][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.39.04:540][611]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.04:708][625]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.06:489][799]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.06:528][803]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:067][858]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:544][906]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:582][909]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:786][930]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:800][931]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:959][947]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.07:976][949]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:321][984]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:538][  6]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:626][ 14]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:777][ 27]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:786][ 28]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:798][ 29]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.08:850][ 34]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.13:476][454]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.13:913][492]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.13:949][496]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.13:975][498]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.13:983][499]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:196][519]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:249][524]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:263][525]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:501][548]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:615][559]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.14:780][574]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.15:266][617]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.18:080][867]LogBlueprintUserMessages: [SpookyObject_C_3] Hello
+[2016.02.09-22.39.18:981][945]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.39.19:045][945]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Hotel/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Hotel/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2016.02.09-22.39.19:083][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000767FF100
+[2016.02.09-22.39.37:245][533]LogSavePackage: Save=1014.119019ms
+[2016.02.09-22.39.37:245][533]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/Prototype115C90954AD08B4C9D862AB5EDEBF720.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Prototype.umap'
+[2016.02.09-22.39.37:251][533]LogSavePackage: Total save time: 1054.265998ms
+[2016.02.09-22.39.37:251][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Prototype.umap
+[2016.02.09-22.39.37:291][533]LogFileHelpers: Saving map 'Prototype' took 1.219
+[2016.02.09-22.39.37:380][533]LogSavePackage: Save=33.708477ms
+[2016.02.09-22.39.37:380][533]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/TriggerSpook7BCECFC4492AD7E9445024B254A61223.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset'
+[2016.02.09-22.39.37:383][533]LogSavePackage: Total save time: 50.879020ms
+[2016.02.09-22.39.37:383][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/TriggerSpook.uasset
+[2016.02.09-22.39.37:397][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/player" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset" SILENT=true
+[2016.02.09-22.39.37:747][533]LogSavePackage: Save=331.810211ms
+[2016.02.09-22.39.37:747][533]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/player538429B74216B1228EEA80BA33CE262D.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset'
+[2016.02.09-22.39.37:750][533]LogSavePackage: Total save time: 348.608691ms
+[2016.02.09-22.39.37:750][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/player.uasset
+[2016.02.09-22.39.37:848][533]LogSavePackage: Save=54.816635ms
+[2016.02.09-22.39.37:848][533]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/SpookyObject33DC32D8401BEB293C27CE8BBEE0AC17.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset'
+[2016.02.09-22.39.37:856][533]LogSavePackage: Total save time: 75.555947ms
+[2016.02.09-22.39.37:856][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/FirstPersonBP/Blueprints/SpookyObject.uasset
+[2016.02.09-22.39.38:992][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.09-22.39.39:041][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.09-22.39.39:106][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.09-22.39.39:366][634]Cmd: QUIT_EDITOR
+[2016.02.09-22.39.39:497][634]LogExit: Preparing to exit.
+[2016.02.09-22.39.40:614][634]LogExit: Editor shut down
+[2016.02.09-22.39.40:614][634]LogExit: Transaction tracking system shut down
+[2016.02.09-22.39.40:615][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BEB2AC0
+[2016.02.09-22.39.40:615][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E0F880
+[2016.02.09-22.39.40:615][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000307FF420
+[2016.02.09-22.39.40:616][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000191EA7A0
+[2016.02.09-22.39.40:624][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DE8BBA0
+[2016.02.09-22.39.40:625][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052FFF4C0
+[2016.02.09-22.39.40:626][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057DFB100
+[2016.02.09-22.39.40:629][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BE4E3E0
+[2016.02.09-22.39.40:629][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D112700
+[2016.02.09-22.39.40:630][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011EF2840
+[2016.02.09-22.39.40:913][634]LogExit: Object subsystem successfully closed.
+[2016.02.09-22.39.40:926][634]LogD3D11RHI: Shutdown
+[2016.02.09-22.39.40:926][634]LogD3D11RHI: CleanupD3DDevice
+[2016.02.09-22.39.41:002][634]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.02.09-22.39.41:014][634]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.02.09-22.39.41:015][634]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.02.09-22.39.41:015][634]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.02.09-22.39.41:015][634]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.02.09-22.39.41:015][634]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.02.09-22.39.41:015][634]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.02.09-22.39.41:016][634]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.02.09-22.39.41:329][634]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.02.09-22.39.41:330][634]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.09-22.39.41:430][634]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.09-22.39.41:441][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.09-22.39.41:442][634]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.02.09-22.39.41:443][634]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.02.09-22.39.41:443][634]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.02.09-22.39.41:543][634]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.02.09-22.39.41:543][634]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.02.09-22.39.41:638][634]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.02.09-22.39.41:638][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.09-22.39.41:638][634]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.09-22.39.41:638][634]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.09-22.39.41:642][634]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.09-22.39.41:642][634]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.09-22.39.41:643][634]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.09-22.39.41:644][634]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.09-22.39.41:645][634]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.09-22.39.41:697][634]LogDerivedDataCache: Shutdown
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.09-22.39.41:697][634]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.09-22.39.42:698][634]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.09-22.39.42:699][634]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.09-22.39.42:700][634]LogExit: Exiting.
+[2016.02.09-22.39.42:701][634]Log file closed, 02/09/16 17:39:42
